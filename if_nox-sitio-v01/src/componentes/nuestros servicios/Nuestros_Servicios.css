@@ -1,0 +1,62 @@
+.servicios h1{
+  color: white;
+}
+
+.servicios p{
+  color: white;
+}
+
+.servicios{
+  background:#171B29;
+  width: 1366px;
+  height: 737px;
+  display: flex;
+  flex-direction: column;
+}
+
+.servicios__encabezado{
+  margin-inline: auto;
+}
+
+.titulo{
+font-size: 48px;
+}
+
+.parrafo{
+  font-size: 16px;
+  padding-inline: 19%;
+}
+
+.servicios__cards{
+  margin: 3% 0;
+  padding: 0 143px
+}
+
+.card{
+  margin: 3% 1.5%;
+  width: 45%;
+  display: inline-flex;
+}
+
+.card__textos{
+  position: relative;
+  top: -15px;
+}
+
+.card__titulo{
+  font-size: 24px;
+  text-align: start;
+}
+
+.card__parrafo{
+  position: relative;
+  top: -5px;
+  font-size: 16px;
+  text-align: start;
+}
+
+.card__img{
+  width: 160px;
+  height: 160px;
+  padding-right: 4%;
+}
