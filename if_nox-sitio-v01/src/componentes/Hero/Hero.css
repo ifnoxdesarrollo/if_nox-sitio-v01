@@ -1,0 +1,45 @@
+.hero {
+    top: 0px;
+    left: 0px;
+    width: 1366px;
+    height: 724px;
+    border: 1px solid var(--unnamed-color-707070);
+    background: #24262B 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+
+.contenedor {
+    margin: 35px 33px;
+    width: 1300px;
+    height: 648px;
+    background-image: url('./img/hero.png');
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.contenedor__logo {
+    margin: 219px 442px 0px 442px;
+    width: 415px;
+    height: 159px;
+}
+
+.contenedor__titulo {
+    font-size: 56px;
+    text-align: center;
+    color: #fff;
+    margin: 12px 418px 16px 417px;
+    width: 466px;
+    height: 76px;
+}
+
+.contenedor__frase {
+    margin: 0px 371px 122px 369px;
+    width: 560px;
+    height: 44px;
+    color: #fff;
+    font-size: 16px;
+}
