@@ -1,0 +1,184 @@
+.caja-ppal {
+    max-width: 1400px;
+    width: 100%;
+    background-color: rgb(186, 188, 189);
+}
+
+.container {  
+  margin: 0 auto; 
+  width: 80%;
+    
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "caja-1"
+    "caja-2"
+    "caja-3"
+    "caja-4"
+    "caja-5"
+    "caja-6"
+    "caja-7";
+  /* width: 50%; */
+
+  background-color: lightcoral;
+}
+
+.caja-1 {  
+  width: 80%;
+  /* background-color: lightsalmon; */
+    
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ".";
+  grid-area: caja-1;
+
+  background: rgb(34,193,195);
+  background: linear-gradient(15deg, rgba(161, 132, 240) 0%, #d60087 50%, #2fdabd 100%);
+  background-repeat: repeat;
+
+}
+
+.caja-1-int {
+    width: calc(100% - 1rem);
+    height: calc(100% - 1rem);
+    background-color: rgb(186, 188, 189);
+}
+
+.textos-der {
+    margin: 2rem;
+    text-align: right;
+    /* background-color: antiquewhite; */
+}
+
+.textos-izq {
+    margin: 2rem;
+    text-align: left;
+    /* background-color: antiquewhite; */
+}
+
+.caja-2 { 
+    width: 80%;
+    grid-area: caja-2; 
+    background: rgb(34,193,195);
+    background: linear-gradient(60deg, rgba(161, 132, 240) 0%, #d60087 50%, #2fdabd 100%);
+    background-repeat: repeat;
+    position: relative;
+}
+
+.caja-2-int {
+    width: calc(100% - 1rem);
+    height: calc(100% - 1rem);
+    background-color: rgb(186, 188, 189);
+    /* padding: 1rem; */
+    position: absolute;
+    left: 1rem;
+    top: 0rem;
+}
+
+.caja-3 { 
+    width: 80%;
+    grid-area: caja-3; 
+    background: rgb(34,193,195);
+    background: linear-gradient(60deg, rgba(161, 132, 240) 0%, #18af96 100%);
+    background-repeat: repeat;
+    position: relative;
+}
+
+.caja-3-int {
+    width: calc(100% - 1rem);
+    height: calc(100% - 1rem);
+    background-color: rgb(186, 188, 189);
+    /* padding: 1rem; */
+    position: absolute;
+    right: 1rem;
+    top: 0rem;
+}
+
+.caja-4 { 
+    width: 80%;
+    grid-area: caja-4; 
+    background: rgb(34,193,195);
+    background: linear-gradient(60deg, rgba(161, 132, 240) 0%, #18af96 100%);
+    background-repeat: repeat;
+    position: relative;
+}
+
+.caja-4-int {
+    width: calc(100% - 1rem);
+    height: calc(100% - 1rem);
+    background-color: rgb(186, 188, 189);
+    /* padding: 1rem; */
+    position: absolute;
+    left: 1rem;
+    top: 0rem;
+}
+
+.caja-5 { 
+    width: 80%;
+    grid-area: caja-5; 
+    background: rgb(34,193,195);
+    background: linear-gradient(10deg, rgba(161, 132, 240) 0%, #d60087 50%, #2fdabd 100%);;
+    background-repeat: repeat;
+    position: relative;
+}
+
+.caja-5-int {
+    width: calc(100% - 1rem);
+    height: calc(100% - 1rem);
+    background-color: rgb(186, 188, 189);
+    /* padding: 1rem; */
+    position: absolute;
+    right: 1rem;
+    top: 0rem;
+}
+
+.caja-6 {  
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "caja-6-a caja-6-b";
+    grid-area: caja-6;
+}
+
+.caja-6-a { grid-area: caja-6-a; 
+    /* background-color: #d60087; */
+}
+
+.caja-6-b { grid-area: caja-6-b; }
+
+.caja-7 {  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+  grid-template-areas:
+    "caja-7-a-0 caja-7-b-0"
+    "caja-7-ab caja-7-ab";
+  grid-area: caja-7;
+}
+
+.caja-7-a-0 { grid-area: caja-7-a-0; 
+
+}
+
+.caja-7-b-0 { grid-area: caja-7-b-0; }
+
+.caja-7-ab { grid-area: caja-7-ab; }
+
+
+
