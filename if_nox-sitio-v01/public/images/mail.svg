@@ -1,0 +1,10 @@
+<svg id="Circle_Button_SIZE_MEDIUM_STATE_DEFAULT_STYLE_STYLE2_" data-name="Circle Button [SIZE=MEDIUM][STATE=DEFAULT][STYLE=STYLE2]" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="Area_SIZE:MEDIUM_STATE:DEFAULT_STYLE:STYLE2_" data-name="Area [SIZE:MEDIUM][STATE:DEFAULT][STYLE:STYLE2]" fill="#fff" stroke="#fff" stroke-width="1" opacity="0.8">
+    <rect width="48" height="48" rx="24" stroke="none"/>
+    <rect x="0.5" y="0.5" width="47" height="47" rx="23.5" fill="none"/>
+  </g>
+  <g id="Icon_feather-mail" data-name="Icon feather-mail" transform="translate(11.5 11.5)">
+    <path id="Trazado_53" data-name="Trazado 53" d="M4.167,4.167H20.833A2.089,2.089,0,0,1,22.917,6.25v12.5a2.089,2.089,0,0,1-2.083,2.083H4.167A2.089,2.089,0,0,1,2.083,18.75V6.25A2.089,2.089,0,0,1,4.167,4.167Z" fill="none" stroke="#0799b6" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.083"/>
+    <path id="Trazado_54" data-name="Trazado 54" d="M22.917,6.25,12.5,13.542,2.083,6.25" fill="none" stroke="#0799b6" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.083"/>
+  </g>
+</svg>

@@ -1,0 +1,27 @@
+.footer {
+  width: 1366px;
+  height: 281px;
+  background-color: #171B29;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__contenedor {
+  margin: 137px 538px 93px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__contenedor__marca {
+  color: #fff;
+  margin: 0px 0px 16px 0px;
+}
+
+.footer__contenedor__copyright {
+  color: #fff;
+  margin: 0px;
+}
