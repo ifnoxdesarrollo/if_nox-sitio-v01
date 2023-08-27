@@ -3,21 +3,31 @@
     height: 1523px;
     background: #24262B 0% 0% no-repeat padding-box;
     opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
-.proy-dest__contenedor {}
+.proy-dest__cont {
+    margin: 72px 143px 119px;
+    background-color: #24262B;
+
+}
 
 .proy-dest__contenedor__titulo {
     font-size: 48px;
     color: #fff;
     text-align: center;
+    margin: 0px;
 }
 
 .proy-dest__contenedor__frase {
     font-size: 16px;
     color: #fff;
     text-align: center;
-    margin: 24px;
+    margin: 24px 301px 85px 301px;
+
 }
 
 .grilla__contenedor {
@@ -109,5 +119,5 @@
 .imagen-8 {
     position: absolute;
     z-index: 5;
-    top: 156.5rem;
+    top: 163rem;
 }
