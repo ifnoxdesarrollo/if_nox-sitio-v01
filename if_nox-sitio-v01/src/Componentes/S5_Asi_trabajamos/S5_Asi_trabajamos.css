@@ -2,6 +2,16 @@
     max-width: 1400px;
     width: 100%;
     background-color: rgb(186, 188, 189);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.seccion__titulo {
+    font-size: 48px;
+    font-family: var(--tipografia-ppal);
+    font-weight: 800;
 }
 
 .container {  
@@ -9,6 +19,7 @@
   width: 80%;
     
   display: grid;
+  place-items: center;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   gap: 0px 0px;
@@ -23,11 +34,12 @@
     "caja-7";
   /* width: 50%; */
 
-  background-color: lightcoral;
+  /* background-color: lightcoral; */
 }
 
 .caja-1 {  
-  width: 80%;
+  /* margin-left: 10%;   */
+  width: 100%;
   /* background-color: lightsalmon; */
     
   display: grid;
@@ -51,21 +63,21 @@
     background-color: rgb(186, 188, 189);
 }
 
-.textos-der {
+/* .textos-der {
     margin: 2rem;
     text-align: right;
-    /* background-color: antiquewhite; */
+    background-color: antiquewhite;
 }
 
 .textos-izq {
     margin: 2rem;
     text-align: left;
-    /* background-color: antiquewhite; */
-}
+    background-color: antiquewhite;
+} */
 
 .caja-2 { 
-    width: 80%;
     grid-area: caja-2; 
+    width: 100%;
     background: rgb(34,193,195);
     background: linear-gradient(60deg, rgba(161, 132, 240) 0%, #d60087 50%, #2fdabd 100%);
     background-repeat: repeat;
@@ -77,13 +89,13 @@
     height: calc(100% - 1rem);
     background-color: rgb(186, 188, 189);
     /* padding: 1rem; */
-    position: absolute;
+    /* position: absolute;
     left: 1rem;
-    top: 0rem;
+    top: 0rem; */
 }
 
 .caja-3 { 
-    width: 80%;
+    width: 100%;
     grid-area: caja-3; 
     background: rgb(34,193,195);
     background: linear-gradient(60deg, rgba(161, 132, 240) 0%, #18af96 100%);
@@ -92,8 +104,8 @@
 }
 
 .caja-3-int {
-    width: calc(100% - 1rem);
-    height: calc(100% - 1rem);
+    /* width: calc(100% - 1rem);
+    height: calc(100% - 1rem); */
     background-color: rgb(186, 188, 189);
     /* padding: 1rem; */
     position: absolute;
@@ -102,7 +114,7 @@
 }
 
 .caja-4 { 
-    width: 80%;
+    width: 100%;
     grid-area: caja-4; 
     background: rgb(34,193,195);
     background: linear-gradient(60deg, rgba(161, 132, 240) 0%, #18af96 100%);
@@ -121,7 +133,7 @@
 }
 
 .caja-5 { 
-    width: 80%;
+    width: 100%;
     grid-area: caja-5; 
     background: rgb(34,193,195);
     background: linear-gradient(10deg, rgba(161, 132, 240) 0%, #d60087 50%, #2fdabd 100%);;
@@ -140,7 +152,7 @@
 }
 
 .caja-6 {  
-    width: 80%;
+    width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
