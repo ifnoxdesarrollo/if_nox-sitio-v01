@@ -5,14 +5,16 @@ import Hero from './componentes/Hero/Hero';
 import Mision from './componentes/Mision/Mision';
 import Proy_dest from './componentes/Proyectos Destacados/Proy_dest';
 import Nuestros_Servicios from './componentes/nuestros servicios/Nuestros_Servicios';
+import S5_Asi_trabajamos from './componentes/S5_Asi_trabajamos/S5_Asi_trabajamos';
 
 function App() {
   return (
     <div className="App">
       <Hero></Hero>
       <Mision></Mision>
-      <Nuestros_Servicios/>
+      <Nuestros_Servicios></Nuestros_Servicios>
       <Proy_dest></Proy_dest>
+      <S5_Asi_trabajamos></S5_Asi_trabajamos>
       <Contacto></Contacto>
       <Footer></Footer>
     </div>
