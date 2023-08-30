@@ -1,23 +1,25 @@
 .hero {
     top: 0px;
     left: 0px;
-    width: 1366px;
-    height: 724px;
-    border: 1px solid var(--unnamed-color-707070);
-    background: #24262B 0% 0% no-repeat padding-box;
-    border: 1px solid #707070;
-    opacity: 1;
+    width: 1300px;
+    height: 580px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .contenedor {
     margin: 35px 33px;
     width: 1300px;
-    height: 648px;
+    height: 580px;
     background-image: url('./img/hero.png');
     opacity: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 20px 33px 0px 33px;
+    border-radius: 10px;
 
 }
 

@@ -1,12 +1,14 @@
 .mision {
-  width: 1366px;
-  height: 568px;
-  background-color: #24262B;
+  width: 1300px;
+  height: 400px;
+  background-color: #206488;
+  border-radius: 10px;
+  margin: 72px 33px 34px 33px;
 }
 
 .mision__contenedor {
-  width: 1366px;
-  height: 568px;
+  width: 1300px;
+  height: 400px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -16,9 +18,9 @@
 .mision__contenedor__textos {
   display: flex;
   justify-content: center;
-  align-items: start;
+  align-items: center;
   flex-direction: column;
-  margin: 165px 115px 162px 145px;
+  margin: 89px 167px 70px 133px;
 }
 
 .mision__contenedor__grilla {
@@ -36,11 +38,12 @@
 }
 
 .mision__contenedor__textos__parrafo {
-  width: 435px;
+  width: 1000px;
   height: 152px;
   font-size: 16px;
   text-align: start;
   color: #fff;
+  margin: 24px 167px 70px 133px;
 }
 
 .mision__contenedor__grilla__fila-1 {

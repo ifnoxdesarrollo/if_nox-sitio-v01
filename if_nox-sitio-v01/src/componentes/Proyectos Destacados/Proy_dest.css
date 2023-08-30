@@ -1,17 +1,18 @@
 .proy-dest {
-    width: 1366px;
-    height: 1523px;
-    background: #24262B 0% 0% no-repeat padding-box;
-    opacity: 1;
+    width: 1300px;
+    height: 1450px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: #7ADADE;
+    border-radius: 10px;
 }
 
 .proy-dest__cont {
-    margin: 72px 143px 119px;
-    background-color: #24262B;
+    width: 1300px;
+    height: 1450px;
+    margin: 0px 424px 24px;
 
 }
 
@@ -19,14 +20,14 @@
     font-size: 48px;
     color: #fff;
     text-align: center;
-    margin: 0px;
+    margin: 59px 391px 24px;
 }
 
 .proy-dest__contenedor__frase {
     font-size: 16px;
     color: #fff;
     text-align: center;
-    margin: 24px 301px 85px 301px;
+    margin: 0px 268px 85px 269px;
 
 }
 
@@ -119,5 +120,5 @@
 .imagen-8 {
     position: absolute;
     z-index: 5;
-    top: 163rem;
+    top: 149.3rem;
 }

@@ -7,11 +7,13 @@
 }
 
 .servicios{
-  background:#171B29;
-  width: 1366px;
-  height: 737px;
+  width: 1300px;
+  height: 700px;
   display: flex;
   flex-direction: column;
+  background-color: #0799B6;
+  border-radius: 10px;
+  margin: 0px 33px 50px;
 }
 
 .servicios__encabezado{
