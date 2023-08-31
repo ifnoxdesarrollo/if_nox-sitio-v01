@@ -4,10 +4,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url('../Hero/img/hero.png');
 }
 
-.contacto__contenedor {}
+.contacto__contenedor {
+  width: 1300px;
+  height: 150px;
+}
 
 .contacto__contenedor__bloque {
   width: 1300px;
