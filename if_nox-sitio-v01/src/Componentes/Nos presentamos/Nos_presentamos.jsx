@@ -6,7 +6,7 @@ function Nos_presentamos() {
         <div className='nosotros'>
             <div className="nosotros__contenedor">
                 <div className="nosotros__contenedor__imagen-grande">
-                    <img className='nosotros__contenedor__imagen-grande__imagen' src="" alt="" />
+                    <img className='nosotros__contenedor__imagen-grande__imagen' src="images/Pablo-olima.png" alt="" />
                 </div>
                 <div className="nosotros__contenedor__imagenes-chicas">
                     <div className="nosotros__contenedor__imagenes-chicas__texto">
@@ -15,12 +15,12 @@ function Nos_presentamos() {
                     </div>
                     <div className="nosotros__contenedor__imagenes-chicas__imagenes">
                         <div className="contenedor-imagen-1">
-                            <img className='nosotros__contenedor__imagenes-chicas__imagenes__imagen-1' src="images/romi.png" alt="" />
-                            <img className='nosotros__contenedor__imagenes-chicas__imagenes__imagen-2' src="images/romi.png" alt="" />
+                            <img className='nosotros__contenedor__imagenes-chicas__imagenes__imagen-1' src="images/Julieta-sosa.png" alt="" />
+                            <img className='nosotros__contenedor__imagenes-chicas__imagenes__imagen-2' src="images/Evaristo-aguirre.png" alt="" />
                         </div>
                         <div className="contenedor-imagen-2">
-                            <img className='nosotros__contenedor__imagenes-chicas__imagenes__imagen-3' src="images/romi.png" alt="" />
-                            <img className='nosotros__contenedor__imagenes-chicas__imagenes__imagen-4' src="images/romi.png" alt="" />
+                            <img className='nosotros__contenedor__imagenes-chicas__imagenes__imagen-3' src="images/Agustin-sosa.png" alt="" />
+                            <img className='nosotros__contenedor__imagenes-chicas__imagenes__imagen-4' src="images/Agustin-sosa.png" alt="" />
                         </div>
                     </div>
                 </div>

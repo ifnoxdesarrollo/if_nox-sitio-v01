@@ -1,4 +1,6 @@
-.nosotros {}
+.nosotros {
+    background-color: #171B29;
+}
 
 .nosotros__contenedor {
     display: flex;
@@ -8,10 +10,28 @@
 
 }
 
+.nosotros__contenedor__imagenes-chicas__texto {
+    width: 478px;
+    height: 195px;
+    margin: 69px 151px 75px 42px;
+
+}
+
+.nosotros__contenedor__imagenes-chicas__texto__titulo {
+    font-size: 48px;
+    color: #FFFFFF;
+}
+
+.nosotros__contenedor__imagenes-chicas__texto__subtitulo {
+    font-size: 16px;
+    color: #FFFFFF;
+    margin: 0px 0px 56px 0px;
+}
+
 .nosotros__contenedor__imagen-grande__imagen {
     width: 672px;
     height: 672px;
-    margin: 69px 42px;
+    margin: 0pxpx 42px;
 }
 
 .nosotros__contenedor__imagenes-chicas__imagenes {
@@ -19,10 +39,30 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 401px;
+    height: 401px;
+    margin: 75px 128px 69px 81px;
 }
 
 .nosotros__contenedor__imagenes-chicas__imagenes__imagen-1 {
     width: 183px;
     height: 183px;
-    margin: 0px 33px;
+    margin: 0px 33px 35px 0px;
 }
+
+.nosotros__contenedor__imagenes-chicas__imagenes__imagen-2 {
+    margin: 0px 0px 35px 0px;
+}
+
+.nosotros__contenedor__imagenes-chicas__imagenes__imagen-3 {
+    margin: 0px 33px 0px 0px;
+}
+
+.nosotros__contenedor__imagenes-chicas__imagenes__imagen-4 {
+    margin: 0px;
+}
+
+.nosotros__contenedor__imagenes-chicas__texto__subtitulo {
+    width: 478px;
+}
+
