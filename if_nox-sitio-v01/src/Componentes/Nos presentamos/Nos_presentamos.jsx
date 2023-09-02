@@ -3,7 +3,7 @@ import './Nos_presentamos.css';
 
 function Nos_presentamos() {
     return (
-        <div className='nosotros'>
+        <div className='nosotros' id='nosotros'>
             <div className="nosotros__contenedor">
                 <div className="nosotros__contenedor__imagen-grande">
                     <img className='nosotros__contenedor__imagen-grande__imagen' src="images/Pablo-olima.png" alt="" />

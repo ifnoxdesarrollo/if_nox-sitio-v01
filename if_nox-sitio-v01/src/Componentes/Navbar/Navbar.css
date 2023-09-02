@@ -1,0 +1,61 @@
+.navbar {
+    width: 1300px;
+    height: 60px;
+    background-color: green;
+    border-radius: 10px;
+    margin: 59px 33px 20px;
+}
+
+.navbar__contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.navbar__contenedor__bloque-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.navbar__contenedor__bloque-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 15px 35px 15px 0px;
+}
+
+.navbar-marca {
+    font-size: 20px;
+    margin: 15px 40px 15px 35px;
+    color: #fff;
+}
+
+.switch {
+    margin: 16px 18px 15px 0px;
+}
+
+.llamada {
+    width: 166px;
+    height: 26px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.nav-item-1 {
+    margin: 0px 18px;
+}
+
+.nav-item-2 {
+    margin: 0px 18px 0px 0px;
+}
+
+.nav-link {
+    color: #fff;
+}

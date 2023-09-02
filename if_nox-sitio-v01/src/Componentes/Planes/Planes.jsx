@@ -5,7 +5,7 @@ function Planes() {
 
 
     return (
-        <div className='planes'>
+        <div className='planes' id='planes'>
             <div className="planes__contenedor">
                 <div className="planes__contenedor__texto">
                     <h1 className='planes__contenedor__texto__titulo'>Elegí el plan perfecto</h1>
