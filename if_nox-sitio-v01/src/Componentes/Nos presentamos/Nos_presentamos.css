@@ -1,0 +1,28 @@
+.nosotros {}
+
+.nosotros__contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.nosotros__contenedor__imagen-grande__imagen {
+    width: 672px;
+    height: 672px;
+    margin: 69px 42px;
+}
+
+.nosotros__contenedor__imagenes-chicas__imagenes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.nosotros__contenedor__imagenes-chicas__imagenes__imagen-1 {
+    width: 183px;
+    height: 183px;
+    margin: 0px 33px;
+}

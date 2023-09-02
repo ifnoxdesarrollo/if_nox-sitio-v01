@@ -4,4 +4,16 @@
     align-items: center;
     flex-direction: column;
     background-color: grey;
+    width: 1366px;
+}
+
+h2 {
+    color: #fff;
+}
+
+:root {
+    --var-color-1: #fff;
+    --var-color-2: #206488;
+
+
 }

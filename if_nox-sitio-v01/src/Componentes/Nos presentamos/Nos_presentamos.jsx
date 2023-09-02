@@ -1,4 +1,5 @@
 import React from 'react'
+import './Nos_presentamos.css';
 
 function Nos_presentamos() {
     return (
@@ -9,14 +10,18 @@ function Nos_presentamos() {
                 </div>
                 <div className="nosotros__contenedor__imagenes-chicas">
                     <div className="nosotros__contenedor__imagenes-chicas__texto">
-                        <h2 className="nosotros__contenedor__imagenes-chicas__texto__titulo"></h2>
-                        <h3 className="nosotros__contenedor__imagenes-chicas__texto__subtitulo"></h3>
+                        <h2 className="nosotros__contenedor__imagenes-chicas__texto__titulo">Nos presentamos</h2>
+                        <h3 className="nosotros__contenedor__imagenes-chicas__texto__subtitulo">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</h3>
                     </div>
                     <div className="nosotros__contenedor__imagenes-chicas__imagenes">
-                        <img className='nosotros__contenedor__imagenes-chicas__imagenes__imagen-1' src="" alt="" />
-                        <img className='nosotros__contenedor__imagenes-chicas__imagenes__imagen-2' src="" alt="" />
-                        <img className='nosotros__contenedor__imagenes-chicas__imagenes__imagen-3' src="" alt="" />
-                        <img className='nosotros__contenedor__imagenes-chicas__imagenes__imagen-4' src="" alt="" />
+                        <div className="contenedor-imagen-1">
+                            <img className='nosotros__contenedor__imagenes-chicas__imagenes__imagen-1' src="images/romi.png" alt="" />
+                            <img className='nosotros__contenedor__imagenes-chicas__imagenes__imagen-2' src="images/romi.png" alt="" />
+                        </div>
+                        <div className="contenedor-imagen-2">
+                            <img className='nosotros__contenedor__imagenes-chicas__imagenes__imagen-3' src="images/romi.png" alt="" />
+                            <img className='nosotros__contenedor__imagenes-chicas__imagenes__imagen-4' src="images/romi.png" alt="" />
+                        </div>
                     </div>
                 </div>
             </div>
