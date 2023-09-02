@@ -66,3 +66,20 @@
     width: 478px;
 }
 
+.imagen-texto {
+    position: absolute;
+    z-index: 4;
+    top: 385rem;
+}
+
+.imagen-texto__nombre {
+    color: #FFFFFF;
+    font-size: 56px;
+    margin: 0px 168px 0px 167px;
+}
+
+.imagen-texto__puesto {
+    color: #FFFFFF;
+    font-size: 30px;
+    margin: 1px 214px 52px;
+}
