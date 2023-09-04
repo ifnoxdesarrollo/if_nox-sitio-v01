@@ -1,12 +1,12 @@
-.servicios h1{
+.servicios h1 {
   color: white;
 }
 
-.servicios p{
+.servicios p {
   color: white;
 }
 
-.servicios{
+.servicios {
   width: 1300px;
   height: 700px;
   display: flex;
@@ -16,50 +16,125 @@
   margin: 0px 33px 50px;
 }
 
-.servicios__encabezado{
+.servicios__encabezado {
   margin-inline: auto;
 }
 
-.titulo{
-font-size: 48px;
-text-align: center;
+.titulo {
+  font-size: 48px;
+  text-align: center;
 }
 
-.parrafo{
+.parrafo {
   font-size: 16px;
   padding-inline: 19%;
 }
 
-.servicios__cards{
+.servicios__cards {
   margin: 3% 0;
   padding: 0 143px
 }
 
-.card{
+.card {
   margin: 3% 1.5%;
   width: 45%;
   display: inline-flex;
 }
 
-.card__textos{
+.card__textos {
   position: relative;
   top: -15px;
 }
 
-.card__titulo{
+.card__titulo {
   font-size: 24px;
   text-align: start;
 }
 
-.card__parrafo{
+.card__parrafo {
   position: relative;
   top: -5px;
   font-size: 16px;
   text-align: start;
 }
 
-.card__img{
+.card__img {
   width: 160px;
   height: 160px;
   padding-right: 4%;
+}
+
+@media (max-width: 375px) {
+  .servicios {
+    width: 340px;
+    height: 1650px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 14px 50px 21px;
+  }
+
+  .servicios__encabezado {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .servicios__cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px 22.5px 64px 14.5px;
+    width: 303px;
+    height: 281px;
+  }
+
+  .card__textos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 303px;
+    height: 137px;
+  }
+
+  .card__img {
+    width: 120px;
+    height: 120px;
+    margin: 0px 90.5px 24px 92.5px;
+  }
+
+  .card__titulo {
+    font-size: 20px;
+    margin: 0px 41.5px 16px 40.5px;
+  }
+
+  .card__parrafo {
+    font-size: 16px;
+    text-align: center;
+    margin: 0px 22.5px 0px 14.5px;
+  }
+
+  .titulo {
+    margin: 31px 16px 66px 10px;
+    width: 314px;
+    height: 46px;
+    font-size: 34px;
+  }
+
+  .parrafo {
+    font-size: 16px;
+    width: 302px;
+    height: 70px;
+    text-align: center;
+    margin: 0px 23px 48.33px 15px;
+  }
 }

@@ -24,9 +24,11 @@
 }
 
 .contenedor__logo {
-    margin: 219px 442px 0px 442px;
+    margin: 192px 442px 0px 442px;
     width: 415px;
     height: 159px;
+    background-image: url('./img/IF-NOX.png');
+    position: absolute;
 }
 
 .contenedor__titulo {
@@ -36,12 +38,63 @@
     margin: 12px 418px 16px 417px;
     width: 466px;
     height: 76px;
+    position: relative;
+    top: 21.5rem;
 }
 
 .contenedor__frase {
-    margin: 0px 371px 122px 369px;
+    margin: 0px 371px 77px 369px;
     width: 560px;
     height: 44px;
     color: #fff;
     font-size: 16px;
+    position: relative;
+    top: 21rem;
+}
+
+@media (max-width: 375px) {
+    .hero {
+        top: 0px;
+        left: 0px;
+        width: 340px;
+        height: 650px;      
+    }
+
+    .contenedor {
+        background-image: url('./img/fondo-hero.png');
+        background-size: cover;
+        width: 340px;
+        height: 650px;
+    }
+
+    .contenedor__logo {
+        background-image: url('./img/IF-NOX-pequeno.png');
+        background-size: cover;
+        width: 207px;
+        height: 286px;
+        margin: 130px 70px 0px 63px;
+    }
+
+    .contenedor__titulo {
+        font-size: 40px;
+        text-align: center;
+        color: #fff;
+        margin: 16px 20px;
+        width: 335px;
+        height: 55px;
+        position: relative;
+        top: 25.5rem;
+    }
+
+    .contenedor__frase {
+        margin: 15px 23px 52px 15px;
+        width: 302px;
+        height: 96px;
+        color: #fff;
+        font-size: 18px;
+        position: relative;
+        top: 24rem;
+        text-align: center;
+    }
+    
 }

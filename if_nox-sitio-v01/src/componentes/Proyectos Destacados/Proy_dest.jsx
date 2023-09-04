@@ -22,7 +22,6 @@ function Proy_dest() {
                             <div className='grilla__contenedor_1_bloque-a-2'>
                                 <img className='imagen-4' src="/images/imagen-2.png" alt="" />
                                 <img className='imagen-5' src="/images/imagen-5.png" alt="" />
-                                <img className='imagen-8' src="/images/imagen-8.png" alt="" />
                             </div>
                         </div>
                         <div className='grilla__contenedor_1_bloque-b'>

@@ -13,16 +13,16 @@ import Navbar from './componentes/Navbar/Navbar';
 function App() {
   return (
     <div className="App">
-      <Navbar></Navbar>
+      {/* <Navbar></Navbar> */}
       <Hero></Hero>
       <Mision></Mision>
       <Nuestros_Servicios></Nuestros_Servicios>
       <Proy_dest></Proy_dest>
-      <S5_Asi_trabajamos></S5_Asi_trabajamos>
-      <Planes></Planes>
-      <Nos_presentamos></Nos_presentamos>
+      {/* <S5_Asi_trabajamos></S5_Asi_trabajamos> */}
+      {/* <Planes></Planes> */}
+      {/* <Nos_presentamos></Nos_presentamos> */}
       <Contacto></Contacto>
-      <Footer></Footer>
+      {/* <Footer></Footer> */}
     </div>
   );
 }
