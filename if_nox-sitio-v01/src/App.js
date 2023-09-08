@@ -22,7 +22,7 @@ function App() {
       {/* <Planes></Planes> */}
       <Nos_presentamos></Nos_presentamos>
       <Contacto></Contacto>
-      {/* <Footer></Footer> */}
+      <Footer></Footer>
     </div>
   );
 }

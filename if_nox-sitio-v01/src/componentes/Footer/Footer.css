@@ -25,3 +25,19 @@
   color: #fff;
   margin: 0px;
 }
+
+@media (max-width: 375px) {
+  .footer {
+    width: 375px;
+    height: 304px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer__contenedor {
+    width: 303px;
+    height: 93px;
+    margin: 115px 37px 96px 36px;
+  }
+}
