@@ -19,7 +19,7 @@ function App() {
       <Nuestros_Servicios></Nuestros_Servicios>
       <Proy_dest></Proy_dest>
       {/* <S5_Asi_trabajamos></S5_Asi_trabajamos> */}
-      {/* <Planes></Planes> */}
+      <Planes></Planes>
       <Nos_presentamos></Nos_presentamos>
       <Contacto></Contacto>
       <Footer></Footer>

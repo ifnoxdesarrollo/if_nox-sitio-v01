@@ -32,19 +32,19 @@
     height: 950px;
     backdrop-filter: blur(15px);
     -webkit-backdrop-filter: blur(15px);
-    background: #FFFFFf;
     margin: 0px 15px 49px 0px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     flex-direction: column;
     border-radius: 10px;
-    background: #a8a4a4;
-    border: 2px solid white;
+    background: #24262B;
+    margin: 0px 7.5px;
+    box-shadow: -4px -4px 10px #FFFFFF33;
 }
 
 .planes__contenedor__cards__card__bloque-1 {
-    margin: 44px 40px 40px;
+    margin: 44px 42px 40px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,6 +59,7 @@
     align-items: center;
     flex-direction: column;
     text-align: center;
+    width: 220px;
 }
 
 .bloque-1__titulo {
@@ -66,9 +67,24 @@
     font-size: 32px;
     opacity: 1;
     background: none;
+    margin: 0px 0px;
+}
+
+.bloque-1__titulo-2 {
+    color: #FFFFFF;
+    font-size: 32px;
+    opacity: 1;
+    background: none;
+    margin: 24px 0px 0px 0px;
 }
 
 .bloque-1__subtitulo-1 {
+    color: #FFFFFF;
+    font-size: 16px;
+    margin: 28px 0px 0px 0px;
+}
+
+.bloque-1__subtitulo-2 {
     color: #FFFFFF;
     font-size: 16px;
 }
@@ -83,6 +99,7 @@
     border: #0799B6;
     font-size: 16px;
     padding: 13px 33px;
+    margin: 53px 0px 0px 0px;
 }
 
 .planes__contenedor__texto__titulo {
@@ -95,3 +112,25 @@
     font-size: 16px;
 }
 
+.bloque-2__items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.bloque-2__subtitulo-1 {
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.bloque-2__subtitulo-2, .bloque-2__subtitulo-3, .bloque-2__subtitulo-4 {
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.check-1, .check-2, .check-3 {
+    color: #FFFFFF;
+    font-size: 32px;
+    margin-right: 16px;
+}
