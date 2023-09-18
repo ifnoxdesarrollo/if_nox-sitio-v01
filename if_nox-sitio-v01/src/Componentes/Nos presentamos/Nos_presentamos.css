@@ -33,6 +33,7 @@
     width: 672px;
     height: 672px;
     margin: 0pxpx 42px;
+    transition: all 0.3s;
 }
 
 .nosotros__contenedor__imagenes-chicas__imagenes {
@@ -42,7 +43,7 @@
     flex-direction: row;
     width: 401px;
     height: 401px;
-    margin: 75px 128px 69px 81px;
+    margin: 75px 128px 140px 81px;
 }
 
 .contenedor-imagen-1 {
@@ -61,6 +62,7 @@
     width: 183px;
     height: 183px;
     margin: 0px 33px 35px 0px;
+    transition: all 0.3s;
 }
 
 .nosotros__contenedor__imagenes-chicas__imagenes__imagen-2 {
@@ -70,11 +72,14 @@
 
 .nosotros__contenedor__imagenes-chicas__imagenes__imagen-3 {
     margin: 0px 33px 66px 0px;
+    width: 184px;
+    transition: all 0.3s;
 }
 
 .nosotros__contenedor__imagenes-chicas__imagenes__imagen-4 {
     margin: 0px;
     width: 184px;
+    transition: all 0.3s;
 }
 
 .nosotros__contenedor__imagenes-chicas__texto__subtitulo {
@@ -168,3 +173,8 @@
         margin: 0px 0px 0px 25px;
     }
 }
+
+.img-transition {
+    opacity: 1; /* Inicialmente visible */
+    transition: opacity 0.5s ease-in-out; /* Transición suave durante 0.5 segundos */
+  }
