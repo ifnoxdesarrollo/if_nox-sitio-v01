@@ -13,16 +13,16 @@ import Asi_trabajamos from './componentes/S5_Asi_trabajamos/Asi_trabajamos';
 function App() {
   return (
     <div className="App">
-      {/* <Navbar></Navbar> */}
-      {/* <Hero></Hero> */}
-      {/* <Mision></Mision> */}
-      {/* <Nuestros_Servicios></Nuestros_Servicios> */}
+      <Navbar></Navbar>
+      <Hero></Hero>
+      <Mision></Mision>
+      <Nuestros_Servicios></Nuestros_Servicios>
       <Proy_dest></Proy_dest>
       <Asi_trabajamos></Asi_trabajamos>
-      {/* <Planes></Planes> */}
-      {/* <Nos_presentamos></Nos_presentamos> */}
-      {/* <Contacto></Contacto> */}
-      {/* <Footer></Footer> */}
+      <Planes></Planes>
+      <Nos_presentamos></Nos_presentamos>
+      <Contacto></Contacto>
+      <Footer></Footer>
     </div>
   );
 }
