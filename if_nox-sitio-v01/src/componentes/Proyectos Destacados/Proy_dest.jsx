@@ -13,20 +13,34 @@ function Proy_dest() {
                     <div className="grilla__contenedor">
                         <div className='grilla__contenedor_1_bloque-a'>
                             <div className="grilla__contenedor_1_bloque-a-1">
-                                <img className='imagen-1' src="/images/percubateristas.png" alt="" />
+                                <div className="imagen-1">
+                                    <img className='imagen-1' src="/images/sinfin-hostel.png" alt="" />
+                                </div>
                                 <div className='grilla__contenedor_1_bloque-a-1-1'>
-                                    <img className='imagen-2' src="/images/imagen-4.png" alt="" />
-                                    <img className='imagen-3' src="/images/imagen-3.png" alt="" />
+                                    <div className="imagen-2">
+                                        <img className='imagen-2' src="/images/siectes.png" alt="" />
+                                    </div>
+                                    <div className="imagen-3">
+                                        <img className='imagen-3' src="/images/panettone.png" alt="" />
+                                    </div>
                                 </div>
                             </div>
                             <div className='grilla__contenedor_1_bloque-a-2'>
-                                <img className='imagen-4' src="/images/imagen-2.png" alt="" />
-                                <img className='imagen-5' src="/images/imagen-5.png" alt="" />
+                                <div className="imagen-4">
+                                    <img className='imagen-4' src="/images/consultorio-maipu.png" alt="" />
+                                </div>
+                                <div className="imagen-5">
+                                    <img className='imagen-5-img' src="/images/cas-mendoza.png" alt="" />
+                                </div>
                             </div>
                         </div>
                         <div className='grilla__contenedor_1_bloque-b'>
-                            <img className='imagen-6' src="/images/imagen-6.png" alt="" />
-                            <img className='imagen-7' src="/images/imagen-7.png" alt="" />
+                            <div className="imagen-6">
+                                <img className='imagen-6-img' src="/images/percubateristas (2).png" alt="" />
+                            </div>
+                            <div className="imagen-7">
+                                <img className='imagen-7' src="/images/philadelphia.png" alt="" />
+                            </div>
                         </div>
                     </div>
                 </div>
