@@ -19,12 +19,21 @@
 
 }
 
+.proy-dest__contenedor {
+    width: 764px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
 .proy-dest__contenedor__titulo {
     font-size: 48px;
     color: #fff;
     text-align: center;
-    margin: 59px 391px 24px;
+    /* margin: 84px 424px 24px; */
     line-height: 1;
+    width: 518px !important;
+    height: 65px !important;
 }
 
 .proy-dest__contenedor__frase {
@@ -32,6 +41,7 @@
     color: #fff;
     text-align: center;
     margin: 0px 268px 85px 269px;
+    width: 764px;
 
 }
 
