@@ -12,7 +12,6 @@
 
 }
 
-
 .nosotros__contenedor__imagenes-chicas__texto {
     width: 478px;
     height: 195px;
@@ -32,9 +31,9 @@
 }
 
 .nosotros__contenedor__imagen-grande__imagen {
-    width: 672px;
-    height: 672px;
-    margin: 0pxpx 42px;
+    width: 42rem;
+    height: 42rem;
+    margin: 0px 42px;
     transition: all 0.3s;
 }
 
@@ -106,77 +105,254 @@
     margin: 1px 214px 52px;
 }
 
-@media (max-width: 375px) {
-    .nosotros {
-        width: 375px;
-        height: 1087px;
-    }
-
-    .nosotros__contenedor {
-        flex-direction: column-reverse;
-        align-items: baseline;
-    }
-
-    .nosotros__contenedor__imagen-grande__imagen {
-        width: 345px;
-        height: 345px;
-    }
-
-    .nosotros__contenedor__imagenes-chicas {}
-
-
-    .nosotros__contenedor__imagenes-chicas__texto {
-        width: 302px;
-        height: 132px;
-        text-align: start;
-    }
-
-    .nosotros__contenedor__imagenes-chicas__imagenes {
-        width: 302px;
-        height: 302px;
-        margin: 25px 36px 92px;
-        align-items: center;
-    }
-
-    .nosotros__contenedor__imagenes-chicas__texto__titulo {
-        font-size: 34px;
-        width: 302px;
-        height: 46px;
-    }
-
-    .nosotros__contenedor__imagenes-chicas__texto__subtitulo {
-        font-size: 16px;
-        width: 302px;
-        height: 70px;
-    }
-
-    .nosotros__contenedor__imagenes-chicas {
-        width: 302px;
-        height: 302px;
-    }
-
+@media(width <=1580px) {
     .nosotros__contenedor__imagenes-chicas__imagenes__imagen-1 {
-        width: 139px;
-        height: 139px;
-        margin: 0px 0px 26px 0px;
+        width: 9rem;
+        height: 9rem;
     }
-
 
     .nosotros__contenedor__imagenes-chicas__imagenes__imagen-3 {
-        width: 139px;
-        height: 139px;
-        margin: 0px 0px 25px 25px;
+        width: 9rem;
     }
 
     .nosotros__contenedor__imagenes-chicas__imagenes__imagen-4 {
-        /* margin: 0px; */
-        width: 139px;
-        height: 139px;
-        margin: 0px 0px 0px 25px;
+        width: 9rem;
+    }
+
+    .nosotros__contenedor__imagen-grande__imagen {
+        width: 30rem;
+        height: 30rem;
     }
 }
 
-.img-transition {
-    opacity: 1; /* Inicialmente visible */
-    transition: opacity 0.5s ease-in-out; /* Transición suave durante 0.5 segundos */
-  }
+@media(width <=1350px) {
+    .nosotros__contenedor__imagenes-chicas__imagenes__imagen-1 {
+        width: 8rem;
+        height: 8rem;
+    }
+
+    .nosotros__contenedor__imagenes-chicas__imagenes__imagen-3 {
+        width: 8rem;
+    }
+
+    .nosotros__contenedor__imagenes-chicas__imagenes__imagen-4 {
+        width: 8rem;
+    }
+
+    .nosotros__contenedor__imagen-grande__imagen {
+        width: 25rem;
+        height: 25rem;
+    }
+    .nosotros__contenedor__imagenes-chicas__texto{
+        width: 29.875rem;
+        height: 12.1875rem;
+        margin: 4.3125rem 2.625rem 4.6875rem 2.625rem;
+    }
+}
+
+@media(width <=1150px) {
+    .nosotros__contenedor__imagenes-chicas__imagenes__imagen-1 {
+        width: 8rem;
+        height: 8rem;
+        margin: 30px;
+    }
+
+    .nosotros__contenedor__imagenes-chicas__imagenes__imagen-3 {
+        width: 8rem;
+        margin: 30px;
+    }
+
+    .nosotros__contenedor__imagenes-chicas__imagenes__imagen-4 {
+        width: 8rem;
+        margin: 30px;
+    }
+
+    .nosotros__contenedor__imagen-grande__imagen {
+        width: 25rem;
+        height: 25rem;
+        padding-left: 13%;
+    }
+    .nosotros__contenedor__imagenes-chicas__texto{
+        width: 29.875rem;
+        height: 12.1875rem;
+        margin: 4.3125rem 2.625rem 4.6875rem 2.625rem;
+    }
+}
+
+@media(width <=992px) {
+    .nosotros__contenedor__imagenes-chicas__imagenes__imagen-1 {
+        width: 8rem;
+        height: 8rem;
+        margin: 20px;
+    }
+
+    .nosotros__contenedor__imagenes-chicas__imagenes__imagen-3 {
+        width: 8rem;
+        margin: 20px;
+    }
+
+    .nosotros__contenedor__imagenes-chicas__imagenes__imagen-4 {
+        width: 8rem;
+        margin: 20px;
+    }
+
+    .nosotros__contenedor__imagen-grande__imagen {
+        width: 21rem;
+        height: 21rem;
+        padding-left: 30%;
+        margin: 0px 0px;
+    }
+    .nosotros__contenedor__imagenes-chicas__texto{
+        width: 29.875rem;
+        height: 12.1875rem;
+        margin: 4.3125rem 1rem 4.6875rem 1rem;
+    }
+}
+
+@media(width <=870px) {
+    .nosotros__contenedor__imagenes-chicas__imagenes__imagen-1 {
+        width: 8.6rem;
+        height: 8.6rem;
+        margin: 20px;
+    }
+
+    .nosotros__contenedor__imagenes-chicas__imagenes__imagen-3 {
+        width: 8.6rem;
+        margin: 20px;
+    }
+
+    .nosotros__contenedor__imagenes-chicas__imagenes__imagen-4 {
+        width: 8.6rem;
+        margin: 20px;
+    }
+
+    .nosotros__contenedor__imagen-grande__imagen {
+        width: 21.5rem;
+        height: 21.5rem;
+        padding-left: 0%;
+        margin: 0px 0px;
+        position: absolute;
+        top: 25%;
+        left: 29%;
+    }
+    .nosotros__contenedor__imagenes-chicas__texto{
+        width: 100%;
+        height: 12.1875rem;
+        margin: 0rem;
+    }
+    .nosotros__contenedor{
+        flex-direction: column;
+        position: relative;
+    }
+    .nosotros__contenedor__imagenes-chicas__imagenes {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        padding-top: 60%;
+         margin: 5rem 0rem 5rem 0rem; 
+    }
+    .nosotros__contenedor__imagenes-chicas__texto__subtitulo {
+        font-size: 1rem;
+        color: #FFFFFF;
+        margin: 0px 0px 0px 24%;
+        width: 55%;
+    }
+    .nosotros__contenedor__imagenes-chicas__texto__titulo {
+        font-size: 3rem;
+        color: #FFFFFF;
+        text-align: center;
+    }
+}
+
+@media(width <= 780px){
+    .nosotros__contenedor__imagen-grande__imagen {
+        width: 21.5rem;
+        height: 21.5rem;
+        padding-left: 0%;
+        margin: 0px 0px;
+        position: absolute;
+        top: 25%;
+        left: 25%;
+    }
+    .nosotros__contenedor__imagenes-chicas__texto__subtitulo {
+        width: 70%;
+        margin: 0px 0px 0px 18%;
+    }
+}
+@media(width <= 700px){
+    .nosotros__contenedor__imagen-grande__imagen {
+        width: 21.5rem;
+        height: 21.5rem;
+        padding-left: 0%;
+        margin: 0px 0px;
+        position: absolute;
+        top: 24%;
+        left: 20%;
+    }
+    .nosotros__contenedor__imagenes-chicas__texto__subtitulo {
+        width: 75%;
+        margin: 0px 0px 0px 15%;
+    }
+}
+@media(width <= 600px){
+    .nosotros__contenedor__imagen-grande__imagen {
+        width: 21.5rem;
+        height: 21.5rem;
+        padding-left: 0%;
+        margin: 0px 0px;
+        position: absolute;
+        top: 24%;
+        left: 15%;
+    }
+    .nosotros__contenedor__imagenes-chicas__texto__subtitulo {
+        width: 100%;
+        margin: 0px 0px 0px 0%;
+    }
+    .nosotros__contenedor__imagenes-chicas__texto__titulo{
+        font-size: 2.125rem;
+    }
+    .nosotros__contenedor__imagenes-chicas__texto{
+        width: 80%;
+        height: 12.1875rem;
+        margin: 0rem;
+    }
+}
+
+@media(width <= 500px){
+    .nosotros__contenedor__imagenes-chicas__texto__subtitulo {
+        font-size: 1rem;
+        color: #FFFFFF;
+        margin: 0px 0px 0px 0%;
+        width: 98%;
+        text-align: center;
+    }
+    .nosotros__contenedor__imagenes-chicas__texto__titulo {
+        color: #FFFFFF;
+        text-align: center;
+    }
+    .nosotros__contenedor__imagen-grande__imagen {
+        top: 20%;
+    }
+}
+@media(width <= 455px){
+    .nosotros__contenedor__imagen-grande__imagen {
+        width: 21rem;
+        height: 21rem;
+        padding-left: 0%;
+        margin: 0px 0px;
+        position: absolute;
+        top: 22%;
+        left: 5%;
+    }
+    .nosotros__contenedor__imagenes-chicas__texto__subtitulo {
+        font-size: 1rem;
+        color: #FFFFFF;
+        margin: 0px 0px 0px 0%;
+        width: 95%;
+        text-align: center;
+    }
+    .nosotros{
+        width: 100%;
+    }
+}

@@ -7,7 +7,7 @@ function Nos_presentamos() {
         <div className='nosotros' id='nosotros'>
             <div className="nosotros__contenedor">
                 <div className="nosotros__contenedor__imagen-grande">
-                    <img id='nosotros1' className='nosotros__contenedor__imagen-grande__imagen' src="images/Pablo-olima.png" alt="" />
+                    <img id='nosotros1' className='nosotros__contenedor__imagen-grande__imagen' src="images/pablo_x2.png" alt="Pablo Olima" />
                     {/* <div className='imagen-texto'>
                         <h3 className='imagen-texto__nombre'>Pablo Olima</h3>
                         <p className='imagen-texto__puesto'>Director Creativo</p>
@@ -20,11 +20,11 @@ function Nos_presentamos() {
                     </div>
                     <div className="nosotros__contenedor__imagenes-chicas__imagenes">
                         <div className="contenedor-imagen-1">
-                            <img id='nosotros2' className='nosotros__contenedor__imagenes-chicas__imagenes__imagen-1' src="images/Julieta-sosa.png" alt="" />
+                            <img id='nosotros2' className='nosotros__contenedor__imagenes-chicas__imagenes__imagen-1' src="images/juli_normal.png" alt="Julieta Sosa" />
                         </div>
                         <div className="contenedor-imagen-2">
-                            <img id='nosotros3' className='nosotros__contenedor__imagenes-chicas__imagenes__imagen-3' src="images/Agustin-sosa.png" alt="" />
-                            <img id='nosotros4' className='nosotros__contenedor__imagenes-chicas__imagenes__imagen-4' src="images/Evaristo-aguirre.png" alt="" />
+                            <img id='nosotros3' className='nosotros__contenedor__imagenes-chicas__imagenes__imagen-3' src="images/agus_normal.png" alt="Agustín Sosa" />
+                            <img id='nosotros4' className='nosotros__contenedor__imagenes-chicas__imagenes__imagen-4' src="images/eva_normal.png" alt="Evaristo Aguirre" />
                         </div>
                     </div>
                 </div>
