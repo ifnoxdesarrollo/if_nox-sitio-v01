@@ -1,19 +1,17 @@
 .contacto {
   width: 90%;
-  height: 208px;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-block: 2rem;
 }
 
 .contacto__contenedor {
   width: 100%;
-  height: 150px;
 }
 
 .contacto__contenedor__bloque {
   width: 100%;
-  height: 150px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -29,7 +27,7 @@
 .contacto__contenedor__bloque__titulo {
   margin: 54px 84px 53px 112px;
   color: #206488;
-  font-size: 32px;
+  font-size: 2rem;
 }
 
 .contacto__contenedor__bloque__iconos {
@@ -54,6 +52,21 @@
 
 .contacto__contenedor__bloque__iconos__icono-4 {
   margin: 0px;
+}
+
+@media(width <= 1050px){
+  .contacto__contenedor__bloque__titulo {
+    margin: 54px 70px 53px 70px;
+    color: #206488;
+    font-size: 1.5rem;
+  }
+}
+@media(width <= 1050px){
+  .contacto__contenedor__bloque__titulo {
+    margin: 54px 50px 53px 50px;
+    color: #206488;
+    font-size: 1.3rem;
+  }
 }
 
 @media (max-width: 375px) {
