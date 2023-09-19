@@ -1,0 +1,29 @@
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: grey;
+}
+
+h2 {
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+:root {}
+
+
+@media (max-width: 375px) {
+    .App {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: grey;
+        width: 375px;
+    }
+}

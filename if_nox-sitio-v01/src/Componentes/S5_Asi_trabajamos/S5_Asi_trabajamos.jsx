@@ -65,4 +65,4 @@ const S5_Asi_trabajamos = () => {
     )
 }
 
-export { S5_Asi_trabajamos }
+export default S5_Asi_trabajamos 
