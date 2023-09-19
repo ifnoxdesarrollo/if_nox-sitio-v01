@@ -7,6 +7,8 @@ function Nos_presentamos() {
         <div className='nosotros' id='nosotros'>
             <div className="nosotros__contenedor">
                 <div className="nosotros__contenedor__imagen-grande">
+                    <h2 className='contenedor-imagen-1__nombre'>Olima Pablo</h2>
+                    <h3 className='contenedor-imagen-1__puesto'>Director Creativo</h3>
                     <img id='nosotros1' className='nosotros__contenedor__imagen-grande__imagen' src="images/pablo_x2.png" alt="Pablo Olima" />
                     {/* <div className='imagen-texto'>
                         <h3 className='imagen-texto__nombre'>Pablo Olima</h3>

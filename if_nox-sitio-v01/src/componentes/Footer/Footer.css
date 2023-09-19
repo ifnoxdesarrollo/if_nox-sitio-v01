@@ -6,10 +6,10 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 8.75rem;
 }
 
 .footer__contenedor {
-  margin: 137px 538px 93px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -26,18 +26,15 @@
   margin: 0px;
 }
 
-@media (max-width: 375px) {
+@media(width <= 455px){
   .footer {
-    width: 375px;
-    height: 304px;
+    width: 100%;
+    height: 281px;
+    background-color: #171B29;
     display: flex;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
-  }
-
-  .footer__contenedor {
-    width: 303px;
-    height: 93px;
-    margin: 115px 37px 96px 36px;
+    margin-bottom: 8.25rem;
   }
 }
