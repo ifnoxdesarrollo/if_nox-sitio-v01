@@ -9,13 +9,36 @@ function Proy_dest() {
                     <h1 className='proy-dest__contenedor__titulo'>Proyectos Destacados</h1>
                     <p className='proy-dest__contenedor__frase'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem quod, autem illo velit excepturi nulla eius!</p>
                 </div>
-                <div className="grilla">
+                <div className="grilla-movil grilla-movil-visible">
+                    <div className="grilla__contenedor-movil">
+                        <div className="grilla__contenedor__bloque-1">
+                            <img className='imagen-1-movil' src="/images/sinfin-hostel-movil.png" alt="" />
+                        </div>
+                        <div className="grilla__contenedor__bloque-2">
+                            <div className="grilla__contenedor__bloque-2__a">
+                                <img className='imagen-2-movil' src="/images/panettone-movil.png" alt="" />
+                                <img className='imagen-3-movil' src="/images/cas-mendoza-movil.png" alt="" />
+                            </div>
+                            <div className="grilla__contenedor__bloque-2__b">
+                                <img className='imagen-4-movil' src="/images/percubateristas-movil.png" alt="" />
+                                <img className='imagen-5-movil' src="/images/siectes-movil.png" alt="" />
+                            </div>
+                        </div>
+                        <div className="grilla__contenedor__bloque-3">
+                            <img className='imagen-6-movil' src="/images/consultorio-movil.png" alt="" />
+                            <img className='imagen-7-movil' src="/images/philadelphia-movil.png" alt="" />
+                        </div>
+                    </div>
+                </div>
+
+
+                <div className="grilla grilla-visible">
                     <div className="grilla__contenedor">
                         <div className='grilla__contenedor_1_bloque-a'>
                             <div className="grilla__contenedor_1_bloque-a-1">
                                 <div className="imagen-1">
                                     <img className='imagen-1' src="/images/sinfin-hostel.png" alt="" />
-                                </div>
+                                    className='imagen-'</div>
                                 <div className='grilla__contenedor_1_bloque-a-1-1'>
                                     <div className="imagen-2">
                                         <img className='imagen-2' src="/images/siectes.png" alt="" />
