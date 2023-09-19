@@ -356,6 +356,14 @@
     .nosotros__contenedor__imagen-grande__imagen {
         top: 20%;
     }
+    .nosotros__contenedor__imagenes-chicas__imagenes {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        padding-top: 60%;
+        margin: 5rem 0rem 5rem 0rem; 
+    }
 }
 @media(width <= 455px){
     .nosotros__contenedor__imagen-grande__imagen {
@@ -370,8 +378,8 @@
     .nosotros__contenedor__imagenes-chicas__texto__subtitulo {
         font-size: 1rem;
         color: #FFFFFF;
-        margin: 0px 0px 0px 0%;
-        width: 95%;
+        margin: 0px 0px 0px 4%;
+        width: 89%;
         text-align: center;
     }
     .nosotros{
