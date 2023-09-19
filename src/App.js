@@ -1,14 +1,14 @@
 import "./App.css";
-import Contacto from "./Componentes/Contacto/Contacto";
-import Footer from "./Componentes/Footer/Footer";
-import Hero from "./Componentes/Hero/Hero";
-import Mision from "./Componentes/Mision/Mision";
-import Proy_dest from "./Componentes/Proyectos Destacados/Proy_dest";
-import Nuestros_Servicios from "./Componentes/nuestros servicios/Nuestros_Servicios";
-import Planes from "./Componentes/Planes/Planes";
-import Nos_presentamos from "./Componentes/Nos presentamos/Nos_presentamos.jsx";
-import Navbar from "./Componentes/Navbar/Navbar";
-import Asi_trabajamos from "./Componentes/S5_Asi_trabajamos/Asi_trabajamos";
+import Contacto from "./componentes/Contacto/Contacto";
+import Footer from "./componentes/Footer/Footer";
+import Hero from "./componentes/Hero/Hero";
+import Mision from "./componentes/Mision/Mision";
+import Proy_dest from "./componentes/Proyectos Destacados/Proy_dest";
+import Nuestros_Servicios from "./componentes/nuestros servicios/Nuestros_Servicios";
+import Planes from "./componentes/Planes/Planes";
+import Nos_presentamos from "./componentes/Nos presentamos/Nos_presentamos.jsx";
+import Navbar from "./componentes/Navbar/Navbar";
+import Asi_trabajamos from "./componentes/S5_Asi_trabajamos/Asi_trabajamos";
 
 function App() {
   return (
