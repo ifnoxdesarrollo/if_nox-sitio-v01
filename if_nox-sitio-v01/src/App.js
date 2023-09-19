@@ -14,7 +14,7 @@ function App() {
       <Mision></Mision>
       <Nuestros_Servicios></Nuestros_Servicios>
       <Proy_dest></Proy_dest>
-      <S5_Asi_trabajamos></S5_Asi_trabajamos>
+      {/* <S5_Asi_trabajamos></S5_Asi_trabajamos> */}
       <Contacto></Contacto>
       <Footer></Footer>
     </div>
