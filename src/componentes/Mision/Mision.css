@@ -20,7 +20,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin: 89px 167px 70px 133px;
+  margin: 89px 9rem 70px 9rem;
 }
 
 .mision__contenedor__grilla {
@@ -32,18 +32,51 @@
 }
 
 .mision__contenedor__textos__titulo {
-  font-size: 48px;
+  font-size: 3rem;
   text-align: start;
   color: #fff;
 }
 
 .mision__contenedor__textos__parrafo {
-  width: 1000px;
   height: 152px;
   font-size: 16px;
   text-align: start;
   color: #fff;
-  margin: 24px 167px 70px 133px;
+}
+
+@media(width <= 704px){
+  .mision__contenedor__textos__titulo {
+    text-align: center;
+  }
+  .mision__contenedor__textos {
+    margin: 3rem 5rem 5rem 5rem;
+  }
+  .mision {
+    height: 100%;
+  }
+  
+  .mision__contenedor {
+    height: 100%;
+  }
+  .mision__contenedor__textos__parrafo {
+    height: 100%;
+  }
+}
+
+@media(width <= 450px){
+  .mision__contenedor__textos__titulo {
+    text-align: center;
+  }
+  .mision__contenedor__textos {
+    margin: 3rem 3rem 5rem 3rem;
+  }
+  .mision {
+    height: 100%;
+  }
+  
+  .mision__contenedor {
+    height: 100%;
+  }
 }
 
 @media (max-width: 375px) {

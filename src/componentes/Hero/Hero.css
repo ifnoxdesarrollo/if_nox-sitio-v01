@@ -24,15 +24,15 @@
 }
 
 .contenedor__logo {
-    margin: 192px 442px 0px 442px;
-    width: 415px;
-    height: 159px;
+    margin: 12rem 27.625rem 0px 27.625rem;
+    width: 25.9375rem;
+    height: 9.9375rem;
     background-image: url('./img/IF-NOX.png');
     position: absolute;
 }
 
 .contenedor__titulo {
-    font-size: 56px;
+    font-size: 3.5rem;
     text-align: center;
     color: #fff;
     margin: 12px 418px 16px 417px;
@@ -43,8 +43,7 @@
 }
 
 .contenedor__frase {
-    margin: 0px 371px 77px 369px;
-    width: 560px;
+    margin: 0px 10% 77px 10%;
     height: 44px;
     color: #fff;
     font-size: 16px;
@@ -52,19 +51,18 @@
     top: 21rem;
 }
 
-@media (max-width: 375px) {
+
+@media (max-width: 550px) {
     .hero {
         top: 0px;
         left: 0px;
-        width: 340px;
-        height: 650px;      
+        height: 650px;
     }
 
     .contenedor {
         background-image: url('./img/fondo-hero.png');
         background-size: cover;
-        width: 340px;
-        height: 650px;
+        height: 40.625rem;
     }
 
     .contenedor__logo {
@@ -96,5 +94,47 @@
         top: 24rem;
         text-align: center;
     }
-    
+}
+@media (max-width: 550px) {
+    .hero {
+        top: 0px;
+        left: 0px;
+        height: 650px;
+    }
+
+    .contenedor {
+        background-image: url('./img/fondo-hero.png');
+        background-size: cover;
+        height: 40.625rem;
+    }
+
+    .contenedor__logo {
+        background-image: url('./img/IF-NOX-pequeno.png');
+        background-size: cover;
+        width: 207px;
+        height: 286px;
+        margin: 130px 70px 0px 63px;
+    }
+
+    .contenedor__titulo {
+        font-size: 2rem;
+        text-align: center;
+        color: #fff;
+        margin: 16px 20px;
+        width: 335px;
+        height: 55px;
+        position: relative;
+        top: 25.5rem;
+    }
+
+    .contenedor__frase {
+        margin: 15px 23px 52px 15px;
+        width: 302px;
+        height: 96px;
+        color: #fff;
+        font-size: 1rem;
+        position: relative;
+        top: 24rem;
+        text-align: center;
+    }
 }
