@@ -18,7 +18,7 @@ function Nos_presentamos() {
                 <div className="nosotros__contenedor__imagenes-chicas">
                     <div className="nosotros__contenedor__imagenes-chicas__texto">
                         <h2 className="nosotros__contenedor__imagenes-chicas__texto__titulo">Nos presentamos</h2>
-                        <h3 className="nosotros__contenedor__imagenes-chicas__texto__subtitulo">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</h3>
+                        <h3 className="nosotros__contenedor__imagenes-chicas__texto__subtitulo">Somos un equipo apasionado de desarrolladores web y diseñadores comprometidos con crear experiencias digitales impactantes y efectivas para tu negocio.</h3>
                     </div>
                     <div className="nosotros__contenedor__imagenes-chicas__imagenes">
                         <div className="contenedor-imagen-1">

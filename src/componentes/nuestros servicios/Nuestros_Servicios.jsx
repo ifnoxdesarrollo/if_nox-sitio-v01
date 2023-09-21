@@ -8,12 +8,12 @@ var image3;
 var image4;
 
 windowWidth = window.innerWidth;
-if(windowWidth <= 415){
+if (windowWidth <= 415) {
   image1 = "./images/servicio_1.png";
   image2 = "./images/servicio_3.png";
   image3 = "./images/servicio_4.png";
   image4 = "./images/servicio_2.png";
-}else{
+} else {
   image1 = "./images/desarrollo_web.png";
   image2 = "./images/disenio.png";
   image3 = "./images/community_manager.png";
@@ -29,9 +29,7 @@ function Nuestros_Servicios() {
           Nuestros Servicios
         </h1>
         <p className='parrafo'>
-          Duis aute irure dolor in reprehenderit in voluptate
-          velit esse cillum dolore eu
-          fugiat nulla pariatur.
+          Ofrecemos servicios de desarrollo web, diseño y community management de alta calidad para impulsar tu presencia en línea y alcanzar tus objetivos.
         </p>
       </div>
       <div className="servicios__cards" id='style-1'>
@@ -71,7 +69,7 @@ function Nuestros_Servicios() {
               visual que destaque y conecte con tu audiencia.
               Ya sea que necesites un nuevo diseño de marca o
               una renovación web, estamos aquí para dar vida a
-              tus visiones en línea.
+              tus visiones en línea.
             </p>
           </div>
         </div>

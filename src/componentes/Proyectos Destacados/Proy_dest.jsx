@@ -7,7 +7,7 @@ function Proy_dest() {
             <div className="proy-dest__cont">
                 <div className="proy-dest__contenedor">
                     <h1 className='proy-dest__contenedor__titulo'>Proyectos Destacados</h1>
-                    <p className='proy-dest__contenedor__frase'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem quod, autem illo velit excepturi nulla eius!</p>
+                    <p className='proy-dest__contenedor__frase'>Explora nuestra cartera de proyectos destacados que demuestran nuestra experiencia en desarrollo web y diseño, proporcionando soluciones efectivas.</p>
                 </div>
                 <div className="grilla-movil grilla-movil-visible">
                     <div className="grilla__contenedor-movil">
