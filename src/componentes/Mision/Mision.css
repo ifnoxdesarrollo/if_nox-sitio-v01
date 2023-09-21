@@ -20,7 +20,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin: 89px 9rem 70px 9rem;
+  margin: 28px 9rem 70px 9rem;
 }
 
 .mision__contenedor__grilla {
@@ -42,6 +42,7 @@
   font-size: 16px;
   text-align: start;
   color: #fff;
+  margin: 25px 150 59px;
 }
 
 @media(width <= 704px){
@@ -82,7 +83,7 @@
 @media (max-width: 375px) {
   .mision {
     width: 340px;
-    height: 400px;
+    height: 568px;
     background-color: #206488;
     border-radius: 10px;
     margin: 53px 14.5px 50px 20px;
