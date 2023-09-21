@@ -196,18 +196,21 @@
 
     .proy-dest__contenedor__titulo {
         height: 126px;
-        margin: 31px 14px 0px 14px;
+        width: 312px !important;
+        margin: 31px 14px 65px 14px;
         text-align: start;
+        font-size: 48px;
     }
 
     .proy-dest__contenedor__frase {
         margin: 0px 19px;
+        width: 312px;
     }
 
     .grilla-movil {
         width: 302px;
         height: 648px;
-        margin-top: 90px;
+        margin-top: 73px;
     }
 
     .grilla__contenedor__bloque-2 {
