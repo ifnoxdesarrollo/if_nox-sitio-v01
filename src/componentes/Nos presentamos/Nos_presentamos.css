@@ -37,7 +37,7 @@
     transition: all 0.3s;
 }
 
-.nosotros__contenedor__imagen-grande{
+.nosotros__contenedor__imagen-grande {
     position: relative;
 }
 
@@ -63,14 +63,14 @@
     flex-direction: column;
 }
 
-.contenedor-imagen-1__nombre{
+.contenedor-imagen-1__nombre {
     position: absolute;
     top: 67%;
     left: 28%;
     font-size: 3.5rem;
 }
 
-.contenedor-imagen-1__puesto{
+.contenedor-imagen-1__puesto {
     position: absolute;
     font-size: 1.875rem;
     color: white;
@@ -126,20 +126,21 @@
 }
 
 @media(width <=1580px) {
-    .contenedor-imagen-1__nombre{
+    .contenedor-imagen-1__nombre {
         position: absolute;
         top: 66%;
         left: 40%;
         font-size: 3.5rem;
     }
-    
-    .contenedor-imagen-1__puesto{
+
+    .contenedor-imagen-1__puesto {
         position: absolute;
         font-size: 1.875rem;
         color: white;
         top: 79%;
         left: 45%;
     }
+
     .nosotros__contenedor__imagenes-chicas__imagenes__imagen-1 {
         width: 9rem;
         height: 9rem;
@@ -178,21 +179,23 @@
         width: 35rem;
         height: 35rem;
     }
-    .contenedor-imagen-1__nombre{
+
+    .contenedor-imagen-1__nombre {
         position: absolute;
         top: 66%;
         left: 40%;
         font-size: 3rem;
     }
-    
-    .contenedor-imagen-1__puesto{
+
+    .contenedor-imagen-1__puesto {
         position: absolute;
         font-size: 1.375rem;
         color: white;
         top: 80%;
         left: 45%;
     }
-    .nosotros__contenedor__imagenes-chicas__texto{
+
+    .nosotros__contenedor__imagenes-chicas__texto {
         width: 29.875rem;
         height: 12.1875rem;
         margin: 4.3125rem 2.625rem 4.6875rem 2.625rem;
@@ -221,24 +224,27 @@
         height: 30rem;
         padding-left: 20%;
     }
-    .contenedor-imagen-1__nombre{
+
+    .contenedor-imagen-1__nombre {
         position: absolute;
         top: 65%;
         left: 48%;
         font-size: 2.8rem;
     }
-    
-    .contenedor-imagen-1__puesto{
+
+    .contenedor-imagen-1__puesto {
         position: absolute;
         font-size: 1.175rem;
         color: white;
         top: 81%;
         left: 58%;
     }
+
     .nosotros__contenedor__imagenes-chicas__texto__subtitulo {
         width: 80%;
     }
-    .nosotros__contenedor__imagenes-chicas__texto{
+
+    .nosotros__contenedor__imagenes-chicas__texto {
         width: 29.875rem;
         height: 12.1875rem;
         margin: 4.3125rem 2.625rem 4.6875rem 2.625rem;
@@ -268,22 +274,24 @@
         padding-left: 30%;
         margin: 0px 0px;
     }
-    .contenedor-imagen-1__nombre{
+
+    .contenedor-imagen-1__nombre {
         position: absolute;
         top: 65%;
         left: 55%;
         font-size: 2rem;
         width: 100%;
     }
-    
-    .contenedor-imagen-1__puesto{
+
+    .contenedor-imagen-1__puesto {
         position: absolute;
         font-size: 1.175rem;
         color: white;
         top: 80%;
         left: 60%;
     }
-    .nosotros__contenedor__imagenes-chicas__texto{
+
+    .nosotros__contenedor__imagenes-chicas__texto {
         width: 29.875rem;
         height: 12.1875rem;
         margin: 4.3125rem 1rem 4.6875rem 1rem;
@@ -296,7 +304,8 @@
         top: 20%;
         left: 29%;
     }
-    .contenedor-imagen-1__nombre{
+
+    .contenedor-imagen-1__nombre {
         position: absolute;
         top: 65%;
         left: 25%;
@@ -304,8 +313,8 @@
         width: 100%;
         z-index: 1;
     }
-    
-    .contenedor-imagen-1__puesto{
+
+    .contenedor-imagen-1__puesto {
         position: absolute;
         font-size: 1.175rem;
         color: white;
@@ -313,6 +322,7 @@
         left: 27%;
         z-index: 1;
     }
+
     .nosotros__contenedor__imagenes-chicas__imagenes__imagen-1 {
         width: 8.6rem;
         height: 8.6rem;
@@ -335,29 +345,34 @@
         padding-left: 0%;
         margin: 0px 0px;
     }
-    .nosotros__contenedor__imagenes-chicas__texto{
+
+    .nosotros__contenedor__imagenes-chicas__texto {
         width: 100%;
         height: 12.1875rem;
         margin: 0rem;
     }
-    .nosotros__contenedor{
+
+    .nosotros__contenedor {
         flex-direction: column;
         position: relative;
     }
+
     .nosotros__contenedor__imagenes-chicas__imagenes {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: row;
         padding-top: 25%;
-        margin: 5rem 0rem 5rem 9rem; 
+        margin: 5rem 0rem 5rem 9rem;
     }
+
     .nosotros__contenedor__imagenes-chicas__texto__subtitulo {
         font-size: 1rem;
         color: #FFFFFF;
         margin: 0px 0px 0px 24%;
         width: 55%;
     }
+
     .nosotros__contenedor__imagenes-chicas__texto__titulo {
         font-size: 3rem;
         color: #FFFFFF;
@@ -365,87 +380,100 @@
     }
 }
 
-@media(width <= 780px){
+@media(width <=780px) {
     .nosotros__contenedor__imagen-grande__imagen {
         width: 21.5rem;
         height: 21.5rem;
         padding-left: 0%;
         margin: 0px 0px;
     }
+
     .nosotros__contenedor__imagenes-chicas__texto__subtitulo {
         width: 70%;
         margin: 0px 0px 0px 18%;
     }
+
     .nosotros__contenedor__imagenes-chicas__imagenes {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: row;
-        margin: 5rem 0rem 5rem 7rem; 
+        margin: 5rem 0rem 5rem 7rem;
     }
 }
-@media(width <= 700px){
+
+@media(width <=700px) {
     .nosotros__contenedor__imagen-grande__imagen {
         width: 21.5rem;
         height: 21.5rem;
         padding-left: 0%;
         margin: 0px 0px;
     }
+
     .nosotros__contenedor__imagen-grande {
         top: 20%;
         left: 20%;
     }
+
     .nosotros__contenedor__imagenes-chicas__texto__subtitulo {
         width: 75%;
         margin: 0px 0px 0px 15%;
     }
+
     .nosotros__contenedor__imagenes-chicas__imagenes {
         padding-top: 35%;
     }
 }
-@media(width <= 600px){
+
+@media(width <=600px) {
     .nosotros__contenedor__imagen-grande {
         top: 20%;
         left: 18%;
     }
+
     .nosotros__contenedor__imagen-grande__imagen {
         width: 21.5rem;
         height: 21.5rem;
         padding-left: 0%;
         margin: 0px 0px;
     }
-     .nosotros__contenedor__imagenes-chicas__texto__subtitulo {
+
+    .nosotros__contenedor__imagenes-chicas__texto__subtitulo {
         width: 75%;
         margin: 0px 0px 0px 12%;
     }
-    .nosotros__contenedor__imagenes-chicas__texto{
+
+    .nosotros__contenedor__imagenes-chicas__texto {
         width: 100%;
         height: 12.1875rem;
         margin: 0rem 0rem;
     }
+
     .nosotros__contenedor__imagenes-chicas__imagenes {
-       padding-top: 40%;
-        margin: 5rem 0rem 5rem 2.5rem; 
+        padding-top: 40%;
+        margin: 5rem 0rem 5rem 2.5rem;
     }
 }
 
-@media(width <= 500px){
-    .contenedor-imagen-1__nombre{
+@media(width <=500px) {
+    .contenedor-imagen-1__nombre {
         top: 62%;
         left: 0%;
         font-size: 2rem;
     }
-    
-    .contenedor-imagen-1__puesto{
+
+    .contenedor-imagen-1__puesto {
         font-size: 1rem;
         color: white;
         top: 77%;
         left: 29%;
     }
+
     .nosotros__contenedor__imagen-grande {
         top: 20%;
         left: 15%;
     }
+
     .nosotros__contenedor__imagenes-chicas__texto__subtitulo {
         font-size: 1rem;
         color: #FFFFFF;
@@ -453,30 +481,37 @@
         width: 80%;
         text-align: center;
     }
+
     .nosotros__contenedor__imagenes-chicas__texto__titulo {
         color: #FFFFFF;
         text-align: center;
         font-size: 2.5rem;
     }
+
     .nosotros__contenedor__imagen-grande__imagen {
         top: 20%;
     }
+
     .nosotros__contenedor__imagenes-chicas__imagenes {
         padding-top: 45%;
-        margin: 5rem 0rem 5rem 0rem; 
+        margin: 5rem 0rem 5rem 0rem;
+        width: 375px;
     }
 }
-@media(width <= 455px){
+
+@media(width <=455px) {
     .nosotros__contenedor__imagen-grande {
         top: 20%;
         left: 10%;
     }
+
     .nosotros__contenedor__imagen-grande__imagen {
         width: 21rem;
         height: 21rem;
         padding-left: 0%;
         margin: 0px 0px;
     }
+
     .nosotros__contenedor__imagenes-chicas__texto__subtitulo {
         font-size: 1rem;
         color: #FFFFFF;
@@ -484,7 +519,8 @@
         width: 89%;
         text-align: center;
     }
-    .nosotros{
+
+    .nosotros {
         width: 100%;
     }
 }

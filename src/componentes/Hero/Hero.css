@@ -65,6 +65,7 @@
         background-image: url('./img/fondo-hero.png');
         background-size: cover;
         height: 40.625rem;
+        margin: 24px 0px 0px 0px;
     }
 
     .contenedor__logo {
