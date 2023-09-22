@@ -34,7 +34,7 @@ function Nuestros_Servicios() {
       </div>
       <div className="servicios__cards" id='style-1'>
 
-        <div id='slide1' className="card">
+        <div className="card tarjeta">
           <img className='card__img' src={image1} alt=''></img>
           <div className="card__textos">
             <h1 className="card__titulo">
@@ -53,7 +53,7 @@ function Nuestros_Servicios() {
         </div>
 
 
-        <div id='slide2' className="card">
+        <div className="card tarjeta">
           <img className='card__img' src={image2} alt=''></img>
           <div className="card__textos">
             <h1 className="card__titulo">
@@ -75,7 +75,7 @@ function Nuestros_Servicios() {
         </div>
 
 
-        <div id='slide3' className="card">
+        <div className="card tarjeta">
           <img className='card__img' src={image3} alt=''></img>
           <div className="card__textos">
             <h1 className="card__titulo">
@@ -100,7 +100,7 @@ function Nuestros_Servicios() {
         </div>
 
 
-        <div id='slide4' className="card">
+        <div className="card tarjeta">
           <img className='card__img' src={image4} alt=''></img>
           <div className="card__textos">
             <h1 className="card__titulo">
