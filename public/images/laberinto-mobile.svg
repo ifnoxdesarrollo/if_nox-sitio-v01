@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="284.937" height="965.331" viewBox="0 0 284.937 965.331">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#206488"/>
+      <stop offset="0.368" stop-color="#0799b6"/>
+      <stop offset="0.686" stop-color="#7adade"/>
+      <stop offset="1" stop-color="#f2e6cf"/>
+    </linearGradient>
+  </defs>
+  <path id="Trazado_45" data-name="Trazado 45" d="M4597.59,1598.755a11.5,11.5,0,0,1-11.5-11.5v-77.92a11.5,11.5,0,0,1,11.5-11.5h80.135V1345.9H4479.948a11.5,11.5,0,0,1-11.5-11.5V1139.341a11.5,11.5,0,0,1,11.5-11.5H4708.3V954.262H4457.865a11.5,11.5,0,0,1-11.5-11.5V734.094a11.5,11.5,0,0,1,11.5-11.5H4708.3v-77.67a11.5,11.5,0,0,1,23,0v89.17a11.5,11.5,0,0,1-11.5,11.5H4469.365V931.262H4719.8a11.5,11.5,0,0,1,11.5,11.5v196.579a11.5,11.5,0,0,1-11.5,11.5H4491.448V1322.9h197.777a11.5,11.5,0,0,1,11.5,11.5v174.939a11.5,11.5,0,0,1-11.5,11.5H4609.09v66.42A11.5,11.5,0,0,1,4597.59,1598.755Z" transform="translate(-4446.365 -633.424)" fill="url(#linear-gradient)"/>
+</svg>

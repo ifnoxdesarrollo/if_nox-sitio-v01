@@ -17,10 +17,10 @@ function Navbar() {
             <div className="navbar__contenedor">
                 <div className="navbar__contenedor__bloque-1">
                     <a className="navbar-marca" href="#">IF NOX</a>
-                    <img className='switch' src="images/Toggle.png" alt="" />
+                    {/* <img className='switch' src="images/Toggle.png" alt="" />
                     <div className='llamada'>
                         <h5>Cambiá al modo oscuro</h5>
-                    </div>
+                    </div> */}
                 </div>
                 <div class="menu-toggle" id="menuToggle">
                     <div class="bar"></div>
