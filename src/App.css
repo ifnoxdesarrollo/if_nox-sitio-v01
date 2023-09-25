@@ -3,7 +3,10 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: grey;
+    background-image: url('../public/images/Rectángulo\ 38@2x.png');
+    background-size: cover;
+    margin-top: -59px;
+    
 }
 
 h2 {
@@ -25,5 +28,6 @@ a {
         flex-direction: column;
         background-color: grey;
         width: 375px;
+        margin-top: -38px;
     }
 }
