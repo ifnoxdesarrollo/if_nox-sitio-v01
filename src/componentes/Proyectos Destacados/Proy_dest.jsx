@@ -38,7 +38,7 @@ function Proy_dest() {
                             <div className="grilla__contenedor_1_bloque-a-1">
                                 <div className="imagen-1">
                                     <img className='imagen-1' src="/images/sinfin-hostel.png" alt="" />
-                                    className='imagen-'</div>
+                                </div>
                                 <div className='grilla__contenedor_1_bloque-a-1-1'>
                                     <div className="imagen-2">
                                         <img className='imagen-2' src="/images/siectes.png" alt="" />
