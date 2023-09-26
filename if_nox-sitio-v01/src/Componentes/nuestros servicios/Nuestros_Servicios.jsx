@@ -71,7 +71,7 @@ function Nuestros_Servicios() {
               visual que destaque y conecte con tu audiencia.
               Ya sea que necesites un nuevo diseño de marca o
               una renovación web, estamos aquí para dar vida a
-              tus visiones en línea.
+              tus visiones en línea.
             </p>
           </div>
         </div>
@@ -96,7 +96,7 @@ function Nuestros_Servicios() {
               que nosotros te ayudemos a construir una
               presencia sólida y auténtica en las redes
               sociales, permitiéndote concentrarte en lo
-              que más importa: tu negocio.
+              que más importa: tu negocio.
             </p>
           </div>
         </div>
@@ -118,7 +118,7 @@ function Nuestros_Servicios() {
               visual que destaque y conecte con tu audiencia.
               Ya sea que necesites un nuevo diseño de marca o
               una renovación web, estamos aquí para dar vida a
-              tus visiones en línea.
+              tus visiones en línea.
             </p>
           </div>
         </div>
