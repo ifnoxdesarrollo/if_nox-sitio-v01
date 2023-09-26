@@ -607,7 +607,7 @@
     }
 }
 
-@media (width <= 375px) {
+@media (width <=375px) {
     .elemento-1 {
         margin: 26px 0px 0px;
     }
@@ -615,7 +615,69 @@
     .elemento-2 {
         margin: 10px 0px 0px 0px;
     }
-    
+}
 
-   
+@media (width <=768px) {
+
+    .asi-trabajamos__contenedor {
+        width: 768px;
+        height: 1700px;
+    }
+
+    .laberinto {
+        width: 700px;
+        margin-top: 248px;
+    }
+
+    .presentacion,
+    .registro,
+    .compromisos,
+    .implementacion,
+    .qa,
+    .entrega {
+        width: 37rem;
+    }
+
+    .presentacion {
+        margin-top: -37rem;
+    }
+
+    .registro {
+        margin-top: 3.2rem;
+        margin-right: 8rem;
+    }
+
+    .qa {
+        margin-top: 2.8rem;
+        margin-right: 7.3rem;
+    }
+
+    .icono__icono-1 {
+        left: 13rem;
+        top: 2.3rem;
+    }
+
+    .icono__icono-2 {
+        top: 10rem;
+        right: 17rem;
+    }
+
+    .icono__icono-3 {
+        top: 18.3rem;
+        left: 11.8rem;
+    }
+
+    .icono__icono-4 {
+        top: 25.3rem;
+        right: 10rem;
+    }
+
+    .icono__icono-5 {
+        top: 32.3rem;
+        left: 9.3rem;
+    }
+
+    .icono__icono-6 {
+        top: 42.8rem;
+    }
 }
