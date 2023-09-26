@@ -77,6 +77,31 @@
   padding-inline: 6%;
 }
 
+@media (width <= 1425px){
+  .tarjeta{
+
+  }
+
+  .card{
+    min-width: 20rem;
+    height: 36rem;
+  }
+
+  .card__img{
+    width: 17.5rem;
+  }
+}
+
+@media (width <= 1100px){
+  .card{
+    min-width: 23rem;
+  }
+
+  .card__img{
+    width: 19.5rem;
+  }
+}
+
 @media (max-width: 415px) {
 
   .servicios {

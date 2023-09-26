@@ -624,6 +624,10 @@
         height: 1700px;
     }
 
+    .asi-trabajamos__titulo {
+        margin: 59px 194px 24px;
+    }
+
     .laberinto {
         width: 700px;
         margin-top: 248px;
@@ -639,7 +643,7 @@
     }
 
     .presentacion {
-        margin-top: -37rem;
+        margin-top: -34rem;
     }
 
     .registro {
@@ -654,30 +658,30 @@
 
     .icono__icono-1 {
         left: 13rem;
-        top: 2.3rem;
+        top: 5.3rem;
     }
 
     .icono__icono-2 {
-        top: 10rem;
+        top: 13rem;
         right: 17rem;
     }
 
     .icono__icono-3 {
-        top: 18.3rem;
+        top: 21.3rem;
         left: 11.8rem;
     }
 
     .icono__icono-4 {
-        top: 25.3rem;
+        top: 28.3rem;
         right: 10rem;
     }
 
     .icono__icono-5 {
-        top: 32.3rem;
+        top: 35.3rem;
         left: 9.3rem;
     }
 
     .icono__icono-6 {
-        top: 42.8rem;
+        top: 45.8rem;
     }
 }
