@@ -18,11 +18,7 @@ function App() {
       <Mision></Mision>
       <Nuestros_Servicios></Nuestros_Servicios>
       <Proy_dest></Proy_dest>
-<<<<<<< HEAD
       <Asi_trabajamos></Asi_trabajamos> 
-=======
-      {/* <Asi_trabajamos></Asi_trabajamos>  */}
->>>>>>> 23a57f1e8c816b61a92ffa4a2430f4b6de279858
       {/* <Planes></Planes>  */}
       <Nos_presentamos></Nos_presentamos>
       <Contacto></Contacto>
