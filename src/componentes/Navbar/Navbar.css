@@ -7,6 +7,7 @@
     border-radius: 10px;
     margin: 110px 33px 20px;
     border: 2px solid #fff;
+    transition: height 0.3s ease;
 }
 
 .navbar__contenedor {
@@ -29,6 +30,7 @@
     align-items: center;
     flex-direction: row;
     margin: 15px 35px 15px 0px;
+    transition: all 0.3s ease;
 }
 
 .navbar-marca {
@@ -68,6 +70,56 @@
     flex-direction: column;
     cursor: pointer;
 }
+@media(width <= 710px){
+    .navbar__contenedor__bloque-2 {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        align-items: center;
+        top: 60px;
+        left: 0;
+        width: 100%;
+    }
+    #navContenedor.opened{
+        height: 18rem;
+    }
+
+    #navbarNav.active{
+        display: flex;
+    }
+    #navItem1.opened{
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-inline:1rem;
+        margin-block: 1rem;
+    }
+    #navItem2.opened{
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-inline:1rem;
+        margin-block: 1rem;
+    }
+    #navItem3.opened{
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-inline:1rem;
+        margin-block: 1rem;
+    }
+    .menu-toggle {
+        display: flex;
+        margin: 6px 17px
+    }
+    .bar {
+        background-color: #fff;
+        height: 2px;
+        width: 30px;
+        margin: 3px 0;
+        border-radius: 2px;
+    }
+    .llamada{
+        display: none;
+    }
+}
 
 @media (max-width: 375px) {
     .navbar {
@@ -83,10 +135,6 @@
 
     .navbar__contenedor__bloque-1 {}
 
-    .navbar__contenedor__bloque-2 {
-        display: none;
-    }
-
     .navbar-marca {
         width: 60px;
         height: 30px;
@@ -99,18 +147,5 @@
 
     .llamada {
         display: none;
-    }
-
-    .menu-toggle {
-        display: flex;
-        margin: 6px 17px
-    }
-
-    .bar {
-        background-color: #fff;
-        height: 2px;
-        width: 30px;
-        margin: 3px 0;
-        border-radius: 2px;
     }
 }
