@@ -173,17 +173,18 @@ function Asi_trabajamos() {
                 <img className='laberinto-2' src="/images/laberinto-mobile.svg" alt="" />
                 <div className="presentacion-2">
                     <div onClick={animar1} className="elemento-1">
-                        <img onClick={animar1} className='icono-1' src="/images/cubo.svg" alt="" />
                         <div className="elemento-1__texto">
                             <h3 className='elemento-1__texto__titulo'>Presentación:</h3>
                             <p className='elemento-1__texto__item'>Equipo de trabajo</p>
                             <p className='elemento-1__texto__item'>Procesos</p>
                             <p className='elemento-1__texto__item'>Herramientas</p>
                         </div>
+                        <img onClick={animar1} className='icono-1' src="/images/cubo.svg" alt="" />
                     </div>
                 </div>
                 <div className="registro-2">
                     <div onClick={animar2} className="elemento-2">
+                        <img onClick={animar2} className='icono-2' src="/images/maletin.svg" alt="" />
 
                         <div className="elemento-2__texto">
                             <h3 className='elemento-2__texto__titulo'>Registro de Reuniones:</h3>
@@ -191,22 +192,22 @@ function Asi_trabajamos() {
                             <p className='elemento-2__texto__item'>Compromisos del Cliente</p>
                             <p className='elemento-2__texto__item'>Brief</p>
                         </div>
-                        <img onClick={animar2} className='icono-2' src="/images/maletin.svg" alt="" />
                     </div>
                 </div>
                 <div className="compromisos-2">
                     <div onClick={animar3} className="elemento-3">
-                        <img onClick={animar3} className='icono-3' src="/images/etiqueta.svg" alt="" />
 
                         <div className="elemento-3__texto">
                             <h3 className='elemento-3__texto__titulo'>Compromisos If Nox:</h3>
                             <p className='elemento-3__texto__item'>Timeline</p>
                             <p className='elemento-3__texto__item'>Mapa de Navegación</p>
                         </div>
+                        <img onClick={animar3} className='icono-3' src="/images/etiqueta.svg" alt="" />
                     </div>
                 </div>
                 <div className="implementacion-2">
                     <div onClick={animar4} className="elemento-4">
+                        <img onClick={animar4} className='icono-4' src="/images/cubo2.svg" alt="" />
 
                         <div className="elemento-4__texto">
                             <h3 className='elemento-4__texto__titulo'>Implementación:</h3>
@@ -221,18 +222,17 @@ function Asi_trabajamos() {
                                 </div>
                             </div>
                         </div>
-                        <img onClick={animar4} className='icono-4' src="/images/cubo2.svg" alt="" />
                     </div>
                 </div>
                 <div className="qa-2">
                     <div onClick={animar5} className="elemento-5">
-                        <img onClick={animar5} className='icono-5' src="/images/chip.svg" alt="" />
 
                         <div className="elemento-5__texto">
                             <h3 className='elemento-5__texto__titulo'>QA Cliente:</h3>
                             <p className='elemento-5__texto__item'>Documentación QA Cliente</p>
                             <p className='elemento-5__texto__item'>Estabilización</p>
                         </div>
+                        <img onClick={animar5} className='icono-5' src="/images/chip.svg" alt="" />
                     </div>
                 </div>
                 <div className="entrega-2">

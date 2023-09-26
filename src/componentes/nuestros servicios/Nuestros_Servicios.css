@@ -144,7 +144,7 @@
   }
 
   .titulo {
-    margin: 31px 16px 66px 10px;
+    margin: 31px 0px 66px 24px;
     width: 314px;
     height: 46px;
     font-size: 34px;
@@ -155,7 +155,7 @@
     width: 302px;
     height: 70px;
     text-align: center;
-    margin: 0px 23px 48.33px 15px;
+    margin: 45px 23px 19.33px 15px;
     padding: 0;
   }
 }
