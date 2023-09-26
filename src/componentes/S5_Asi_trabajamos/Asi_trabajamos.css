@@ -624,6 +624,10 @@
         height: 1700px;
     }
 
+    .asi-trabajamos__titulo {
+        margin: 59px 194px 24px;
+    }
+
     .laberinto {
         width: 700px;
         margin-top: 248px;
