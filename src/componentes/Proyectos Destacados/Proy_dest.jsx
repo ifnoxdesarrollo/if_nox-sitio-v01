@@ -2,6 +2,23 @@ import React from 'react'
 import './Proy_dest.css'
 
 function Proy_dest() {
+
+    const hoverImg = (element) => {
+        element.classList.add(element.id + '-hover');
+    }
+
+    const resizeImg = (element) => {
+        element.classList.remove(element.id + '-hover');
+    }
+
+    const hoverImg2 = (element) => {
+        element.parentElement.classList.add(element.id + '-hover');
+    }
+
+    const resizeImg2 = (element) => {
+        element.parentElement.classList.remove(element.id + '-hover');
+    }
+
     return (
         <div className='proy-dest'>
             <div className="proy-dest__cont">
@@ -37,32 +54,58 @@ function Proy_dest() {
                         <div className='grilla__contenedor_1_bloque-a'>
                             <div className="grilla__contenedor_1_bloque-a-1">
                                 <div className="imagen-1">
-                                    <img className='imagen-1' src="/images/sinfin-hostel.png" alt="" />
+                                    <img onMouseLeave={(event) => resizeImg(event.target)}
+                                        onMouseEnter={(event) => hoverImg(event.target)}
+                                        id='imagen-1' className='imagen-1'
+                                        src="/images/sinfin-hostel.png" alt="" />
                                 </div>
                                 <div className='grilla__contenedor_1_bloque-a-1-1'>
                                     <div className="imagen-2">
-                                        <img className='imagen-2' src="/images/siectes.png" alt="" />
+                                        <img onMouseLeave={(event) => resizeImg(event.target)}
+                                            onMouseEnter={(event) => hoverImg(event.target)}
+                                            className='imagen-2' src="/images/siectes.png"
+                                            alt="" id="imagen-2" />
                                     </div>
                                     <div className="imagen-3">
-                                        <img className='imagen-3' src="/images/panettone.png" alt="" />
+                                        <img onMouseLeave={(event) => resizeImg(event.target)}
+                                            onMouseEnter={(event) => hoverImg(event.target)}
+                                            className='imagen-3' src="/images/panettone.png"
+                                            alt="" id="imagen-3" />
                                     </div>
                                 </div>
                             </div>
                             <div className='grilla__contenedor_1_bloque-a-2'>
                                 <div className="imagen-4">
-                                    <img className='imagen-4' src="/images/consultorio-maipu.png" alt="" />
+                                    <img
+                                        onMouseLeave={(event) => resizeImg(event.target)}
+                                        onMouseEnter={(event) => hoverImg(event.target)}
+                                        className='imagen-4' src="/images/consultorio-maipu.png"
+                                        alt="" id="imagen-4" />
                                 </div>
                                 <div className="imagen-5">
-                                    <img className='imagen-5-img' src="/images/cas-mendoza.png" alt="" />
+                                    <img
+                                        onMouseLeave={(event) => resizeImg2(event.target)}
+                                        onMouseEnter={(event) => hoverImg2(event.target)}
+                                        id="imagen-5"
+                                        className='imagen-5-img' src="/images/cas-mendoza.png"
+                                        alt="" />
                                 </div>
                             </div>
                         </div>
                         <div className='grilla__contenedor_1_bloque-b'>
                             <div className="imagen-6">
-                                <img className='imagen-6-img' src="/images/percubateristas (2).png" alt="" />
+                                <img
+                                    onMouseLeave={(event) => resizeImg2(event.target)}
+                                    onMouseEnter={(event) => hoverImg2(event.target)}
+                                    id="imagen-6"
+                                    className='imagen-6-img' src="/images/percubateristas (2).png"
+                                    alt="" />
                             </div>
                             <div className="imagen-7">
-                                <img className='imagen-7' src="/images/philadelphia.png" alt="" />
+                                <img onMouseLeave={(event) => resizeImg(event.target)}
+                                    onMouseEnter={(event) => hoverImg(event.target)}
+                                    className='imagen-7' src="/images/philadelphia.png"
+                                    alt="" id="imagen-7" />
                             </div>
                         </div>
                     </div>
