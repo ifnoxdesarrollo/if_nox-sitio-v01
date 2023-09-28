@@ -34,7 +34,19 @@
     width: 42rem;
     height: 42rem;
     margin: 0px 42px;
-    transition: all 0.3s;
+    opacity: 1;
+    animation: fadeIn 0.5s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
 
 .nosotros__contenedor__imagen-grande {
@@ -83,7 +95,10 @@
     width: 183px;
     height: 183px;
     margin: 0px 33px 35px 0px;
-    transition: all 0.3s;
+    animation: fadeIn 0.5s ease-in-out;
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
 }
 
 .nosotros__contenedor__imagenes-chicas__imagenes__imagen-2 {
@@ -94,13 +109,19 @@
 .nosotros__contenedor__imagenes-chicas__imagenes__imagen-3 {
     margin: 0px 33px 66px 0px;
     width: 184px;
-    transition: all 0.3s;
+    animation: fadeIn 0.5s ease-in-out;
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
 }
 
 .nosotros__contenedor__imagenes-chicas__imagenes__imagen-4 {
     margin: 0px;
     width: 184px;
-    transition: all 0.3s;
+    animation: fadeIn 0.5s ease-in-out;
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
 }
 
 .nosotros__contenedor__imagenes-chicas__texto__subtitulo {
@@ -467,10 +488,12 @@
         margin: 5rem 0rem 5rem 2.5rem;
     }
 }
-@media(width <= 550px){
-    .card{
+
+@media(width <=550px) {
+    .card {
         min-width: 23rem;
     }
+
     .servicios {
         width: 90%;
         display: flex;

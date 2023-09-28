@@ -87,7 +87,7 @@ function Proy_dest() {
                                         onMouseLeave={(event) => resizeImg2(event.target)}
                                         onMouseEnter={(event) => hoverImg2(event.target)}
                                         id="imagen-5"
-                                        className='imagen-5-img' src="/images/cas-mendoza.png"
+                                        className='imagen-5-img' src="/images/cas-mendoza.webp"
                                         alt="" />
                                 </div>
                             </div>
@@ -98,7 +98,7 @@ function Proy_dest() {
                                     onMouseLeave={(event) => resizeImg2(event.target)}
                                     onMouseEnter={(event) => hoverImg2(event.target)}
                                     id="imagen-6"
-                                    className='imagen-6-img' src="/images/percubateristas (2).png"
+                                    className='imagen-6-img' src="/images/percubateristas (2).webp"
                                     alt="" />
                             </div>
                             <div className="imagen-7">

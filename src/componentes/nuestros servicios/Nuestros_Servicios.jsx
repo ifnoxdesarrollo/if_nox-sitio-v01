@@ -25,7 +25,7 @@ function Nuestros_Servicios() {
   return (
     <div className='servicios'>
       <div className="servicios__encabezado">
-        <h1 className='titulo'>
+        <h1 className='servicios__titulo'>
           Nuestros Servicios
         </h1>
         <p className='parrafo'>

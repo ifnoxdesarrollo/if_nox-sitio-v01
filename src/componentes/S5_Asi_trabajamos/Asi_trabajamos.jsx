@@ -99,7 +99,7 @@ function Asi_trabajamos() {
                 <img onClick={animarDiv4} className='icono__icono-4' src="/images/cubo2.svg" alt="" />
                 <img onClick={animarDiv5} className='icono__icono-5' src="/images/chip.svg" alt="" />
                 <img onClick={animarDiv6} className='icono__icono-6' src="/images/corazon.svg" alt="" />
-                <img className='laberinto' src="/images/laberinto.png" alt="" />
+                <img className='laberinto' src="/images/laberinto.webp" alt="" />
                 <div className="presentacion">
                     <div onClick={animarDiv} className="proceso__elemento-1">
                         <div className="proceso__elemento-1__texto">

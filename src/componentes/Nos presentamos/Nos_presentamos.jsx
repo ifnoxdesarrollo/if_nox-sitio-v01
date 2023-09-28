@@ -1,15 +1,49 @@
 import React from 'react'
 import './Nos_presentamos.css';
+import { useState } from 'react';
 // import './Nos_presentamos.js';
 
 function Nos_presentamos() {
+    const initialData = {
+        name: "Olima Pablo",
+        position: "Director Creativo",
+        image: "images/pablo_x2.webp"
+    };
+    const [current, setCurrent] = useState(initialData);
+
+    const [eva, setEva] = useState({
+        name: "Evaristo Aguirre",
+        position: "Desarrollador",
+        image: "images/eva_x2.webp"
+    });
+    const [juli, setJuli] = useState({
+        name: "Julieta Sosa",
+        position: "Desarrolladora",
+        image: "images/juli_x2.webp"
+    });
+    const [agus, setAgus] = useState({
+        name: "Agustín Sosa",
+        position: "Desarrollador",
+        image: "images/agus_x2.webp"
+    });
+
+    const handleChangePerson = (person) => {
+        const currentData = {
+            name: current.name,
+            position: current.position,
+            image: current.image
+        };
+        setCurrent(person);
+        person === juli ? setJuli(currentData) : person === eva ? setEva(currentData) : setAgus(currentData);
+    }
+
     return (
         <div className='nosotros' id='nosotros'>
             <div className="nosotros__contenedor">
                 <div className="nosotros__contenedor__imagen-grande">
-                    <h2 className='contenedor-imagen-1__nombre'>Olima Pablo</h2>
-                    <h3 className='contenedor-imagen-1__puesto'>Director Creativo</h3>
-                    <img id='nosotros1' className='nosotros__contenedor__imagen-grande__imagen' src="images/pablo_x2.png" alt="Pablo Olima" />
+                    <h2 className='contenedor-imagen-1__nombre'>{current.name}</h2>
+                    <h3 className='contenedor-imagen-1__puesto'>{current.position}</h3>
+                    <img id='nosotros1' className='nosotros__contenedor__imagen-grande__imagen' src={current.image} alt="Pablo Olima" />
                     {/* <div className='imagen-texto'>
                         <h3 className='imagen-texto__nombre'>Pablo Olima</h3>
                         <p className='imagen-texto__puesto'>Director Creativo</p>
@@ -22,11 +56,11 @@ function Nos_presentamos() {
                     </div>
                     <div className="nosotros__contenedor__imagenes-chicas__imagenes">
                         <div className="contenedor-imagen-1">
-                            <img id='nosotros2' className='nosotros__contenedor__imagenes-chicas__imagenes__imagen-1' src="images/juli_normal.png" alt="Julieta Sosa" />
+                            <img onClick={() => handleChangePerson(juli)} id='nosotros2' className='nosotros__contenedor__imagenes-chicas__imagenes__imagen-1' src={juli.image} alt="Julieta Sosa" />
                         </div>
                         <div className="contenedor-imagen-2">
-                            <img id='nosotros3' className='nosotros__contenedor__imagenes-chicas__imagenes__imagen-3' src="images/agus_normal.png" alt="Agustín Sosa" />
-                            <img id='nosotros4' className='nosotros__contenedor__imagenes-chicas__imagenes__imagen-4' src="images/eva_normal.png" alt="Evaristo Aguirre" />
+                            <img onClick={() => handleChangePerson(agus)} id='nosotros3' className='nosotros__contenedor__imagenes-chicas__imagenes__imagen-3' src={agus.image} alt="Agustín Sosa" />
+                            <img onClick={() => handleChangePerson(eva)} id='nosotros4' className='nosotros__contenedor__imagenes-chicas__imagenes__imagen-4' src={eva.image} alt="Evaristo Aguirre" />
                         </div>
                     </div>
                 </div>
