@@ -1,9 +1,10 @@
 .planes {
     width: 100%;
-    max-width: 1250px;
+    max-width: 1300px;
     height: 1300px;
     margin-top: 2rem;
     background-color: #24262B;
+    border-radius: 10px;
 }
 
 .planes__contenedor {
@@ -27,10 +28,13 @@
 }
 
 .planes__contenedor__cards {
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
+
+    background-color: lightcoral;
 }
 
 .planes__contenedor__cards__card {
@@ -47,6 +51,8 @@
     background: #24262B;
     margin: 0px 7.5px;
     box-shadow: -4px -4px 10px #FFFFFF33;
+
+    background-color: red;
 }
 
 .planes__contenedor__cards__card__bloque-1 {
