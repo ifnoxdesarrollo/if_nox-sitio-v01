@@ -1,14 +1,40 @@
-import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "./PlanesItem.css";
+import React, { useRef, useState } from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+import 'swiper/css';
+import 'swiper/css/pagination';
+import './PlanesItem.css';
+import { Pagination } from 'swiper/modules';
 
 const PlanesItem = () => {
   return (
 
         <Swiper
-            slidesPerView={4}
-            autoHeight={true}
+            slidesPerView={1}
+            spaceBetween={10}
+            pagination={{
+                ckickable:true,
+            }}
+            breakpoints={{
+                '@0.00': {
+                    slidesPerView: 1,
+                    spaceBetween: 10,
+                  },
+                  '@0.75': {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                  },
+                  '@1.00': {
+                    slidesPerView: 3,
+                    spaceBetween: 40,
+                  },
+                  '@1.50': {
+                    slidesPerView: 4,
+                    spaceBetween: 50,
+                  },
+            }}
+            modules={[Pagination]}
+            className='mySwiper'
         >
             <SwiperSlide>
                 <div className="planes__contenedor__cards__card">
