@@ -1,7 +1,18 @@
-import React from 'react'
-import './Contacto.css'
+import React from 'react';
+import './Contacto.css';
+import Lottie from 'lottie-react';
+import animationData from './animaciones.json';
 
 function Contacto() {
+
+  const defaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: animationData,
+    
+  }
+
+
   return (
     <div className='contacto' id='contacto'>
       <div className="contacto__contenedor">

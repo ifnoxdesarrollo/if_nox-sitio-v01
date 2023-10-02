@@ -33,6 +33,53 @@ function Nos_presentamos() {
             position: current.position,
             image: current.image
         };
+
+        switch (person.name) {
+            case "Julieta Sosa":
+                console.log("JULI");
+                var element = document.getElementById('nombre');
+                element.className = '';
+                element.classList.add('contenedor-imagen-1__nombre-juli');
+                var element = document.getElementById('puesto');
+                element.className = '';
+                element.classList.add('contenedor-imagen-1__puesto-juli')
+                break;
+
+            case "Agustín Sosa":
+                console.log("AGUS");
+                var element = document.getElementById('nombre');
+                element.className = '';
+                element.classList.add('contenedor-imagen-1__nombre-agus');
+                var element = document.getElementById('puesto');
+                element.className = '';
+                element.classList.add('contenedor-imagen-1__puesto-agus')
+                break;
+
+            case "Evaristo Aguirre":
+                console.log("EVA");
+                var element = document.getElementById('nombre');
+                element.className = '';
+                element.classList.add('contenedor-imagen-1__nombre-eva');
+                var element = document.getElementById('puesto');
+                element.className = '';
+                element.classList.add('contenedor-imagen-1__puesto-eva')
+                break;
+
+            case "Olima Pablo":
+                console.log("PABLO");
+                var element = document.getElementById('nombre');
+                element.className = '';
+                element.classList.add('contenedor-imagen-1__nombre');
+                var element = document.getElementById('puesto');
+                element.className = '';
+                element.classList.add('contenedor-imagen-1__puesto')
+                break;
+
+            default:
+                break;
+        }
+
+
         setCurrent(person);
         person === juli ? setJuli(currentData) : person === eva ? setEva(currentData) : setAgus(currentData);
     }
@@ -41,8 +88,8 @@ function Nos_presentamos() {
         <div className='nosotros' id='nosotros'>
             <div className="nosotros__contenedor">
                 <div className="nosotros__contenedor__imagen-grande">
-                    <h2 className='contenedor-imagen-1__nombre'>{current.name}</h2>
-                    <h3 className='contenedor-imagen-1__puesto'>{current.position}</h3>
+                    <h2 id='nombre' className='contenedor-imagen-1__nombre'>{current.name}</h2>
+                    <h3 id='puesto' className='contenedor-imagen-1__puesto'>{current.position}</h3>
                     <img id='nosotros1' className='nosotros__contenedor__imagen-grande__imagen' src={current.image} alt="Pablo Olima" />
                     {/* <div className='imagen-texto'>
                         <h3 className='imagen-texto__nombre'>Pablo Olima</h3>

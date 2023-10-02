@@ -35,8 +35,403 @@
     height: 42rem;
     margin: 0px 42px;
     opacity: 1;
-    animation: fadeIn 0.5s ease-in-out;
+    animation: fadeIn 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
+}
+
+.contenedor-imagen-1__nombre-agus {
+    position: absolute;
+    top: 70%;
+    left: 31%;
+    font-size: 3.5rem;
+}
+
+.contenedor-imagen-1__nombre-juli {
+    position: absolute;
+    top: 64%;
+    left: 31%;
+    font-size: 3.5rem;
+}
+
+.contenedor-imagen-1__nombre-eva {
+    position: absolute;
+    top: 62%;
+    left: 24%;
+    font-size: 3.5rem;
+    color: #2292f3;
+}
+
+.contenedor-imagen-1__puesto-agus {
+    position: absolute;
+    top: 84%;
+    left: 40%;
+    font-size: 1.875rem;
+    color: white;
+}
+
+.contenedor-imagen-1__puesto-juli {
+    position: absolute;
+    top: 77%;
+    left: 37%;
+    font-size: 1.875rem;
+    color: white;
+}
+
+.contenedor-imagen-1__puesto-eva {
+    position: absolute;
+    font-size: 1.875rem;
+    color: #2292f3;
+    top: 76%;
+    left: 37%;
+}
+
+@media (width <=1580px) {
+    .contenedor-imagen-1__nombre-agus {
+        position: absolute;
+        top: 70%;
+        left: 41%;
+        font-size: 3.5rem;
+    }
+
+    .contenedor-imagen-1__puesto-agus {
+        position: absolute;
+        top: 84%;
+        left: 53%;
+        font-size: 1.875rem;
+        color: white;
+    }
+
+    .contenedor-imagen-1__nombre-juli {
+        position: absolute;
+        top: 62%;
+        left: 40%;
+        font-size: 3.5rem;
+    }
+
+    .contenedor-imagen-1__puesto-juli {
+        position: absolute;
+        top: 76%;
+        left: 47%;
+        font-size: 1.875rem;
+        color: white;
+    }
+
+    .contenedor-imagen-1__nombre-eva {
+        position: absolute;
+        top: 63%;
+        left: 37%;
+        font-size: 3rem;
+        color: #2292f3;
+    }
+
+    .contenedor-imagen-1__puesto-eva {
+        position: absolute;
+        font-size: 1.875rem;
+        color: #2292f3;
+        top: 75%;
+        left: 47.5%;
+    }
+}
+
+@media (width <=1350px) {
+    .contenedor-imagen-1__nombre-agus {
+        position: absolute;
+        top: 65%;
+        left: 38%;
+        font-size: 3rem;
+        width: 100%;
+    }
+
+    .contenedor-imagen-1__puesto-agus {
+        position: absolute;
+        top: 84%;
+        left: 52%;
+        font-size: 1.375rem;
+        color: white;
+    }
+
+    .contenedor-imagen-1__nombre-juli {
+        position: absolute;
+        top: 59%;
+        left: 38%;
+        font-size: 3rem;
+        width: 100%;
+    }
+
+    .contenedor-imagen-1__puesto-juli {
+        position: absolute;
+        top: 77%;
+        left: 48%;
+        font-size: 1.375rem;
+        color: white;
+    }
+
+    .contenedor-imagen-1__nombre-eva {
+        position: absolute;
+        top: 58%;
+        left: 28%;
+        font-size: 3rem;
+        width: 100%;
+        color: #2292f3;
+    }
+
+    .contenedor-imagen-1__puesto-eva {
+        position: absolute;
+        font-size: 1.375rem;
+        color: #2292f3;
+        top: 77%;
+        left: 49%;
+    }
+}
+
+@media (width <=1150px) {
+    .contenedor-imagen-1__nombre-agus {
+        position: absolute;
+        top: 70%;
+        left: 48%;
+        font-size: 2rem;
+        width: 100%;
+    }
+
+    .contenedor-imagen-1__puesto-agus {
+        position: absolute;
+        top: 84%;
+        left: 60%;
+        font-size: 1rem;
+        color: white;
+    }
+
+    .contenedor-imagen-1__nombre-juli {
+        position: absolute;
+        top: 66%;
+        left: 48%;
+        font-size: 2rem
+    }
+
+    .contenedor-imagen-1__puesto-juli {
+        position: absolute;
+        top: 80%;
+        left: 55%;
+        font-size: 1rem;
+        color: white;
+    }
+
+    .contenedor-imagen-1__nombre-eva {
+        position: absolute;
+        top: 65%;
+        left: 43%;
+        font-size: 1.85rem;
+        width: 100%;
+        color: #2292f3;
+    }
+
+    .contenedor-imagen-1__puesto-eva {
+        position: absolute;
+        font-size: 1rem;
+        color: #2292f3;
+        top: 78%;
+        left: 56%;
+    }
+}
+
+@media (width <=992px) {
+    .contenedor-imagen-1__nombre-agus {
+        position: absolute;
+        top: 65%;
+        left: 46%;
+        font-size: 2rem;
+        width: 100%;
+    }
+
+    .contenedor-imagen-1__puesto-agus {
+        position: absolute;
+        top: 82%;
+        left: 64%;
+        font-size: 1rem;
+        color: white;
+    }
+
+    .contenedor-imagen-1__nombre-juli {
+        position: absolute;
+        top: 60%;
+        left: 46%;
+        font-size: 2rem
+    }
+
+    .contenedor-imagen-1__puesto-juli {
+        position: absolute;
+        top: 76%;
+        left: 58%;
+        font-size: 1rem;
+        color: white;
+    }
+
+    .contenedor-imagen-1__nombre-eva {
+        position: absolute;
+        top: 62%;
+        left: 34%;
+        font-size: 1.85rem;
+        width: 100%;
+        color: #2292f3;
+    }
+
+    .contenedor-imagen-1__puesto-eva {
+        position: absolute;
+        font-size: 1rem;
+        color: #2292f3;
+        top: 78%;
+        left: 59%;
+    }
+}
+
+@media (width <=870px) {
+    .contenedor-imagen-1__nombre-agus {
+        position: absolute;
+        top: 70%;
+        left: 30%;
+        font-size: 1.8rem;
+        width: 100%;
+    }
+
+    .contenedor-imagen-1__puesto-agus {
+        position: absolute;
+        top: 82%;
+        left: 38%;
+        font-size: 1.175rem;
+        color: white;
+    }
+
+    .contenedor-imagen-1__nombre-juli {
+        position: absolute;
+        top: 65%;
+        left: 28%;
+        font-size: 1.8rem
+    }
+
+    .contenedor-imagen-1__puesto-juli {
+        position: absolute;
+        top: 76%;
+        left: 32%;
+        font-size: 1.175rem;
+        color: white;
+    }
+
+    .contenedor-imagen-1__nombre-eva {
+        position: absolute;
+        top: 63%;
+        left: 22%;
+        font-size: 1.75rem;
+        width: 100%;
+        color: #2292f3;
+    }
+
+    .contenedor-imagen-1__puesto-eva {
+        position: absolute;
+        font-size: 1.175rem;
+        color: #2292f3;
+        top: 74%;
+        left: 33%;
+    }
+}
+
+@media (width <=450px) {
+    .contenedor-imagen-1__nombre-agus {
+        position: absolute;
+        top: 70%;
+        left: 35%;
+        font-size: 1.8rem;
+        width: 100%;
+    }
+
+    .contenedor-imagen-1__puesto-agus {
+        position: absolute;
+        top: 82%;
+        left: 43%;
+        font-size: 1.175rem;
+        color: white;
+    }
+
+    .contenedor-imagen-1__nombre-juli {
+        position: absolute;
+        top: 65%;
+        left: 33%;
+        font-size: 1.8rem
+    }
+
+    .contenedor-imagen-1__puesto-juli {
+        position: absolute;
+        top: 76%;
+        left: 37%;
+        font-size: 1.175rem;
+        color: white;
+    }
+
+    .contenedor-imagen-1__nombre-eva {
+        position: absolute;
+        top: 63%;
+        left: 26%;
+        font-size: 1.75rem;
+        width: 100%;
+        color: #2292f3;
+    }
+
+    .contenedor-imagen-1__puesto-eva {
+        position: absolute;
+        font-size: 1.175rem;
+        color: #2292f3;
+        top: 74%;
+        left: 40%;
+    }
+}
+
+@media (width <=360px) {
+    .contenedor-imagen-1__nombre-agus {
+        position: absolute;
+        top: 70%;
+        left: 40%;
+        font-size: 1.8rem;
+        width: 100%;
+    }
+
+    .contenedor-imagen-1__puesto-agus {
+        position: absolute;
+        top: 82%;
+        left: 48%;
+        font-size: 1.175rem;
+        color: white;
+    }
+
+    .contenedor-imagen-1__nombre-juli {
+        position: absolute;
+        top: 65%;
+        left: 38%;
+        font-size: 1.8rem
+    }
+
+    .contenedor-imagen-1__puesto-juli {
+        position: absolute;
+        top: 76%;
+        left: 42%;
+        font-size: 1.175rem;
+        color: white;
+    }
+
+    .contenedor-imagen-1__nombre-eva {
+        position: absolute;
+        top: 63%;
+        left: 28%;
+        font-size: 1.75rem;
+        width: 100%;
+        color: #2292f3;
+    }
+
+    .contenedor-imagen-1__puesto-eva {
+        position: absolute;
+        font-size: 1.175rem;
+        color: #2292f3;
+        top: 74%;
+        left: 45%;
+    }
 }
 
 @keyframes fadeIn {
@@ -203,8 +598,8 @@
 
     .contenedor-imagen-1__nombre {
         position: absolute;
-        top: 66%;
-        left: 40%;
+        top: 65%;
+        left: 36%;
         font-size: 3rem;
     }
 
@@ -213,7 +608,7 @@
         font-size: 1.375rem;
         color: white;
         top: 84%;
-        left: 50%;
+        left: 45%;
     }
 
     .nosotros__contenedor__imagenes-chicas__texto {
@@ -330,8 +725,8 @@
 
     .contenedor-imagen-1__nombre {
         position: absolute;
-        top: 65%;
-        left: 25%;
+        top: 70%;
+        left: 27%;
         font-size: 1.8rem;
         width: 100%;
         z-index: 1;
@@ -341,8 +736,8 @@
         position: absolute;
         font-size: 1.175rem;
         color: white;
-        top: 77%;
-        left: 27%;
+        top: 82%;
+        left: 29%;
         z-index: 1;
     }
 
@@ -455,15 +850,6 @@
         left: 10%;
     }
 
-    .contenedor-imagen-1__puesto {
-        position: absolute;
-        font-size: 1.175rem;
-        color: white;
-        top: 77%;
-        left: 27%;
-        z-index: 1;
-        width: 50%;
-    }
 
     .nosotros__contenedor__imagen-grande__imagen {
         width: 21.5rem;
@@ -577,5 +963,25 @@
 
     .nosotros {
         width: 100%;
+    }
+}
+
+@media(width <=410px) {
+    .nosotros__contenedor__imagen-grande {
+        top: 24%;
+        left: 5%;
+        width: 65%;
+    }
+    .contenedor-imagen-1__nombre {
+        top: 62%;
+        left: 23%;
+        font-size: 2rem;
+    }
+    .contenedor-imagen-1__puesto {
+        font-size: 1rem;
+        color: white;
+        top: 77%;
+        left: 31%;
+        width: 75%;
     }
 }
