@@ -1,6 +1,6 @@
 .planes {
     width: 100%;
-    max-width: 1300px;
+    max-width: 1366px;
     height: 1300px;
     margin-top: 2rem;
     background-color: #24262B;
@@ -10,12 +10,13 @@
 .planes__contenedor {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: space-between; */
+    align-items:center;
     width: 100%;
     height: 1300px;
-}
 
+    /* background-color: lightgreen; */
+}
 .planes__contenedor__texto {
     width: 666px;
     height: 133px;
@@ -28,21 +29,22 @@
 }
 
 .planes__contenedor__cards {
-    width: 100%;
+    /* width: 100%; */
+    max-width: 1366px !important;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
-
-    background-color: lightcoral;
+    
+    /* background-color: lightcoral; */
 }
 
-.planes__contenedor__cards__card {
-    width: 313px;
+.planes__contenedor__cards__card, .swiper-slide {
+    width: 313px!important;
     height: 950px;
     backdrop-filter: blur(15px);
     -webkit-backdrop-filter: blur(15px);
-    margin: 0px 15px 49px 0px;
+    /* margin: 0px 15px 49px 0px; */
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -51,9 +53,9 @@
     background: #24262B;
     margin: 0px 7.5px;
     box-shadow: -4px -4px 10px #FFFFFF33;
-
-    background-color: red;
+    
 }
+
 
 .planes__contenedor__cards__card__bloque-1 {
     margin: 44px 42px 40px;
@@ -145,14 +147,13 @@
     color: #FFFFFF;
     font-size: 32px;
     margin-right: 16px;
-}
+} 
 
 /*-------------------medias queries------------------*/
 
 
 @media screen and (width <= 600px) {
     .planes {
-        background-color: lightgreen;
         width: 100%;
     }
 
@@ -166,8 +167,6 @@
         width: 100%;
         height: auto;
         text-align: left;
-        /* margin: 72px 350px 96px; */
-        background-color: lightgreen;
     }
 
     .planes__contenedor__texto__titulo {
@@ -189,10 +188,6 @@
     }
 
 }
-
-
-
-
 
 
 @media screen and (width <= 450px) {
