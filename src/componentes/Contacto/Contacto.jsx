@@ -1,6 +1,5 @@
 import React from 'react';
 import './Contacto.css';
-import Lottie from 'lottie-react';
 import animationData from './animaciones.json';
 
 function Contacto() {
