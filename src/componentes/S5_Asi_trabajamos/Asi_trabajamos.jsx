@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useRef } from 'react'
 import './Asi_trabajamos.css'
 
 function Asi_trabajamos() {
@@ -89,6 +89,7 @@ function Asi_trabajamos() {
     }
 
 
+
     return (
         <div className='asi-trabajamos'>
             <div className="asi-trabajamos__contenedor">
@@ -100,7 +101,7 @@ function Asi_trabajamos() {
                 <img onClick={animarDiv5} className='icono__icono-5' src="/images/chip.svg" alt="" />
                 <img onClick={animarDiv6} className='icono__icono-6' src="/images/corazon.svg" alt="" />
                 <img className='laberinto' src="/images/laberinto.webp" alt="" />
-                <div className="presentacion">
+                <div className="presentacion" >
                     <div onClick={animarDiv} className="proceso__elemento-1">
                         <div className="proceso__elemento-1__texto">
                             <h3 className='proceso__elemento-1__texto__titulo'>Presentación:</h3>
