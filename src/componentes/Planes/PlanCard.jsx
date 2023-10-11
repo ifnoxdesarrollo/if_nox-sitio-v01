@@ -36,7 +36,7 @@ const PlanCard = () => {
             },
             1280: {
                 slidesPerView: 4,
-                spaceBetween: 20,
+                spaceBetween: 15,
             },
         }}  
       >
@@ -82,7 +82,7 @@ const PlanCard = () => {
         <SwiperSlide>
             <div className="planes__contenedor__cards__card">
             <div className="planes__contenedor__cards__card__bloque-1">
-              <h2 className="bloque-1__titulo">Basic</h2>
+              <h2 className="bloque-1__titulo">Non Basic</h2>
               <h3 className="bloque-1__subtitulo-1">
                 For individuals or teams just getting started with project
                 management.
@@ -115,13 +115,25 @@ const PlanCard = () => {
                   Lorem ipsum dolor sit.
                 </h3>
               </div>
+              <div className="bloque-2__items">
+                <i class="bi bi-check2 check-3"></i>
+                <h3 className="bloque-2__subtitulo-4">
+                  Lorem ipsum dolor sit.
+                </h3>
+              </div>
+              <div className="bloque-2__items">
+                <i class="bi bi-check2 check-3"></i>
+                <h3 className="bloque-2__subtitulo-4">
+                  Lorem ipsum dolor sit.
+                </h3>
+              </div>
             </div>
           </div>
         </SwiperSlide>
         <SwiperSlide>
             <div className="planes__contenedor__cards__card">
             <div className="planes__contenedor__cards__card__bloque-1">
-              <h2 className="bloque-1__titulo">Basic</h2>
+              <h2 className="bloque-1__titulo">Medium</h2>
               <h3 className="bloque-1__subtitulo-1">
                 For individuals or teams just getting started with project
                 management.
@@ -154,13 +166,37 @@ const PlanCard = () => {
                   Lorem ipsum dolor sit.
                 </h3>
               </div>
+              <div className="bloque-2__items">
+                <i class="bi bi-check2 check-3"></i>
+                <h3 className="bloque-2__subtitulo-4">
+                  Lorem ipsum dolor sit.
+                </h3>
+              </div>
+              <div className="bloque-2__items">
+                <i class="bi bi-check2 check-3"></i>
+                <h3 className="bloque-2__subtitulo-4">
+                  Lorem ipsum dolor sit.
+                </h3>
+              </div>
+              <div className="bloque-2__items">
+                <i class="bi bi-check2 check-3"></i>
+                <h3 className="bloque-2__subtitulo-4">
+                  Lorem ipsum dolor sit.
+                </h3>
+              </div>
+              <div className="bloque-2__items">
+                <i class="bi bi-check2 check-3"></i>
+                <h3 className="bloque-2__subtitulo-4">
+                  Lorem ipsum dolor sit.
+                </h3>
+              </div>
             </div>
           </div>
         </SwiperSlide>
         <SwiperSlide>
             <div className="planes__contenedor__cards__card">
             <div className="planes__contenedor__cards__card__bloque-1">
-              <h2 className="bloque-1__titulo">Basic</h2>
+              <h2 className="bloque-1__titulo">Re Power</h2>
               <h3 className="bloque-1__subtitulo-1">
                 For individuals or teams just getting started with project
                 management.
@@ -184,6 +220,42 @@ const PlanCard = () => {
               <div className="bloque-2__items">
                 <i class="bi bi-check2 check-2"></i>
                 <h3 className="bloque-2__subtitulo-3">
+                  Lorem ipsum dolor sit.
+                </h3>
+              </div>
+              <div className="bloque-2__items">
+                <i class="bi bi-check2 check-3"></i>
+                <h3 className="bloque-2__subtitulo-4">
+                  Lorem ipsum dolor sit.
+                </h3>
+              </div>
+              <div className="bloque-2__items">
+                <i class="bi bi-check2 check-3"></i>
+                <h3 className="bloque-2__subtitulo-4">
+                  Lorem ipsum dolor sit.
+                </h3>
+              </div>
+              <div className="bloque-2__items">
+                <i class="bi bi-check2 check-3"></i>
+                <h3 className="bloque-2__subtitulo-4">
+                  Lorem ipsum dolor sit.
+                </h3>
+              </div>
+              <div className="bloque-2__items">
+                <i class="bi bi-check2 check-3"></i>
+                <h3 className="bloque-2__subtitulo-4">
+                  Lorem ipsum dolor sit.
+                </h3>
+              </div>
+              <div className="bloque-2__items">
+                <i class="bi bi-check2 check-3"></i>
+                <h3 className="bloque-2__subtitulo-4">
+                  Lorem ipsum dolor sit.
+                </h3>
+              </div>
+              <div className="bloque-2__items">
+                <i class="bi bi-check2 check-3"></i>
+                <h3 className="bloque-2__subtitulo-4">
                   Lorem ipsum dolor sit.
                 </h3>
               </div>
