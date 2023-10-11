@@ -1,39 +1,33 @@
-import React, { useRef, useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 import 'swiper/css';
 import 'swiper/css/pagination';
 import './PlanesItem.css';
-import { Pagination } from 'swiper/modules';
+import { FreeMode } from 'swiper/modules';
 
 const PlanesItem = () => {
   return (
 
         <Swiper
-            slidesPerView={1}
-            spaceBetween={10}
-            pagination={{
-                ckickable:true,
-            }}
+            freeMode={true}
+            grabCursor={true}
+            slidesPerView={4}
+            spaceBetween={2}
             breakpoints={{
-                '@0.00': {
-                    slidesPerView: 1,
+                320:{
+                    slidesPerView:1,
                     spaceBetween: 10,
-                  },
-                  '@0.75': {
-                    slidesPerView: 2,
-                    spaceBetween: 20,
-                  },
-                  '@1.00': {
-                    slidesPerView: 3,
-                    spaceBetween: 40,
-                  },
-                  '@1.50': {
-                    slidesPerView: 4,
-                    spaceBetween: 50,
-                  },
+                },
+                480:{
+                    slidesPerView:2,
+                    spaceBetween: 10,
+                },
+                640:{
+                    slidesPerView:4,
+                    spaceBetween: 10,
+                },
             }}
-            modules={[Pagination]}
+            modules={[FreeMode]}
             className='mySwiper'
         >
             <SwiperSlide>

@@ -1,8 +1,7 @@
 import React from 'react'
 import './Planes.css';
-import { Swiper } from 'swiper/react';
 import 'swiper/css';
-import { PlanesItem } from './PlanesItem';
+import { PlanCard } from './PlanCard';
 
 function Planes() {
 
@@ -11,11 +10,11 @@ function Planes() {
         <div className='planes' id='planes'>
             <div className="planes__contenedor">
                 <div className="planes__contenedor__texto">
-                    <h2 className='planes__contenedor__texto__titulo'>Elegí el plan perfecto <br />para ti</h2>
+                    <h2 className='planes__contenedor__texto__titulo'>Elegí el plan perfecto para vos</h2>
                     <h3 className='planes__contenedor__texto__subtitulo'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam non obcaecati minus provident distinctio ipsa officia vel maiores.</h3>
                 </div>
                 <div className="planes__contenedor__cards">
-                    <PlanesItem></PlanesItem>
+                    <PlanCard></PlanCard>
                 </div>
             </div>
 

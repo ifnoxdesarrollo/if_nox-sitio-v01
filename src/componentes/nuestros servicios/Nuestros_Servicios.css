@@ -49,6 +49,8 @@
   width: 303px;
   height: 32.6875rem;
   background-color: #8ed8ede2;
+  border: solid 1px #707070;
+  border-radius: 5px;
 }
 
 .tarjeta {
@@ -68,6 +70,7 @@
 .card__parrafo {
   font-size: 1rem;
   text-align: start;
+  line-height: 25px;
 }
 
 .card__img {
@@ -75,6 +78,7 @@
   height: 10rem;
   margin-top: 1.6875rem;
   padding-inline: 6%;
+  object-fit: cover;
 }
 
 @media (width <= 1425px){
