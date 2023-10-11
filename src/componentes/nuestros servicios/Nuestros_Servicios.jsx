@@ -14,7 +14,7 @@ if (windowWidth <= 415) {
   image3 = "./images/servicio_4.png";
   image4 = "./images/servicio_2.png";
 } else {
-  image1 = "./images/desarrollo_web.png";
+  image1 = "./images/desarrollo-web-corregida.png";
   image2 = "./images/disenio.png";
   image3 = "./images/community_manager.png";
   image4 = "./images/asesoria.png";
