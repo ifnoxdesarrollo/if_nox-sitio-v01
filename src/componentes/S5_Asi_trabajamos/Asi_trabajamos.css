@@ -293,12 +293,12 @@
 }
 
 @keyframes deslizar {
-    0% {
+    from {
         transform: translateX(100%);
         opacity: 0;
     }
 
-    100% {
+    to {
         transform: translateX(0);
         opacity: 1;
     }
@@ -684,4 +684,13 @@
     .icono__icono-6 {
         top: 45.8rem;
     }
+}
+
+.presentacion {
+
+    view-transition-name: --item;
+    view-timeline-axis: block;
+
+    animation-timeline: --item;
+    animation-name: deslizar;
 }
