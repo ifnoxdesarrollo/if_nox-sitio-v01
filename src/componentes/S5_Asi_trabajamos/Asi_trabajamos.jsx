@@ -1,109 +1,60 @@
-import React, { useEffect, useRef } from 'react'
+import React from 'react'
+import ComponenteObservador  from '../ComponenteObservador.jsx';
 import './Asi_trabajamos.css'
 
 function Asi_trabajamos() {
 
-    const animarDiv = () => {
-        const procesoElemento1 = document.querySelector('.proceso__elemento-1');
-        procesoElemento1.classList.toggle('animado');
-        const procesoTexto1 = document.querySelector('.proceso__elemento-1__texto');
-        procesoTexto1.classList.toggle('visible')
-    }
-
-    const animarDiv2 = () => {
-        const procesoElemento2 = document.querySelector('.proceso__elemento-2');
-        procesoElemento2.classList.toggle('animado');
-        const procesoTexto2 = document.querySelector('.proceso__elemento-2__texto');
-        procesoTexto2.classList.toggle('visible')
-    }
-
-    const animarDiv3 = () => {
-        const procesoElemento3 = document.querySelector('.proceso__elemento-3');
-        procesoElemento3.classList.toggle('animado');
-        const procesoTexto3 = document.querySelector('.proceso__elemento-3__texto');
-        procesoTexto3.classList.toggle('visible')
-    }
-
-    const animarDiv4 = () => {
-        const procesoElemento4 = document.querySelector('.proceso__elemento-4');
-        procesoElemento4.classList.toggle('animado');
-        const procesoTexto = document.querySelector('.proceso__elemento-4__texto');
-        procesoTexto.classList.toggle('visible')
-    }
-
-    const animarDiv5 = () => {
-        const procesoElemento5 = document.querySelector('.proceso__elemento-5');
-        procesoElemento5.classList.toggle('animado');
-        const procesoTexto = document.querySelector('.proceso__elemento-5__texto');
-        procesoTexto.classList.toggle('visible')
-    }
-
-    const animarDiv6 = () => {
-        const procesoElemento6 = document.querySelector('.proceso__elemento-6');
-        procesoElemento6.classList.toggle('animado-2');
-        const procesoTexto = document.querySelector('.proceso__elemento-6__texto');
-        procesoTexto.classList.toggle('visible')
-    }
-
-
-    const animar1 = () => {
-        const elemento1 = document.querySelector('.elemento-1');
-        elemento1.classList.toggle('animado');
-        const texto1 = document.querySelector('.elemento-1__texto');
-        texto1.classList.toggle('visible')
-    }
-
-    const animar2 = () => {
-        const elemento2 = document.querySelector('.elemento-2');
-        elemento2.classList.toggle('animado');
-        const texto2 = document.querySelector('.elemento-2__texto');
-        texto2.classList.toggle('visible')
-    }
-
-    const animar3 = () => {
-        const elemento3 = document.querySelector('.elemento-3');
-        elemento3.classList.toggle('animado');
-        const texto3 = document.querySelector('.elemento-3__texto');
-        texto3.classList.toggle('visible')
-    }
-
-    const animar4 = () => {
-        const elemento4 = document.querySelector('.elemento-4');
-        elemento4.classList.toggle('animado');
-        const texto = document.querySelector('.elemento-4__texto');
-        texto.classList.toggle('visible')
-    }
-
-    const animar5 = () => {
-        const elemento5 = document.querySelector('.elemento-5');
-        elemento5.classList.toggle('animado');
-        const texto = document.querySelector('.elemento-5__texto');
-        texto.classList.toggle('visible')
-    }
-
-    const animar6 = () => {
-        const elemento6 = document.querySelector('.elemento-6');
-        elemento6.classList.toggle('animado-2');
-        const texto = document.querySelector('.elemento-6__texto');
-        texto.classList.toggle('visible')
-    }
-
-
-
+    const [elementoRef, isIntersecting] = ComponenteObservador ({
+        rootMargin: "-40% 0px -60% 0px",
+    });
+    const [elementoRef2, isIntersecting2] = ComponenteObservador ({
+        rootMargin: "-40% 0px -60% 0px",
+    });
+    const [elementoRef3, isIntersecting3] = ComponenteObservador ({
+        rootMargin: "-40% 0px -60% 0px",
+    });
+    const [elementoRef4, isIntersecting4] = ComponenteObservador ({
+        rootMargin: "-40% 0px -60% 0px",
+    });
+    const [elementoRef5, isIntersecting5] = ComponenteObservador ({
+        rootMargin: "-40% 0px -60% 0px",
+    });
+    const [elementoRef6, isIntersecting6] = ComponenteObservador ({
+        rootMargin: "-40% 0px -60% 0px",
+    });
+    const [elementoRef_a, isIntersecting_a] = ComponenteObservador ({
+        rootMargin: "-40% 0px -60% 0px",
+    });
+    const [elementoRef_2, isIntersecting_2] = ComponenteObservador ({
+        rootMargin: "-40% 0px -60% 0px",
+    });
+    const [elementoRef_3, isIntersecting_3] = ComponenteObservador ({
+        rootMargin: "-40% 0px -60% 0px",
+    });
+    const [elementoRef_4, isIntersecting_4] = ComponenteObservador ({
+        rootMargin: "-40% 0px -60% 0px",
+    });
+    const [elementoRef_5, isIntersecting_5] = ComponenteObservador ({
+        rootMargin: "-40% 0px -60% 0px",
+    });
+    const [elementoRef_6, isIntersecting_6] = ComponenteObservador ({
+        rootMargin: "-40% 0px -60% 0px",
+    });
+    
     return (
         <div className='asi-trabajamos'>
             <div className="asi-trabajamos__contenedor">
                 <h1 className='asi-trabajamos__titulo'>Así trabajamos</h1>
-                <img onClick={animarDiv} className='icono__icono-1' src="/images/cubo.svg" alt="" />
-                <img onClick={animarDiv2} className='icono__icono-2' src="/images/maletin.svg" alt="" />
-                <img onClick={animarDiv3} className='icono__icono-3' src="/images/etiqueta.svg" alt="" />
-                <img onClick={animarDiv4} className='icono__icono-4' src="/images/cubo2.svg" alt="" />
-                <img onClick={animarDiv5} className='icono__icono-5' src="/images/chip.svg" alt="" />
-                <img onClick={animarDiv6} className='icono__icono-6' src="/images/corazon.svg" alt="" />
+                <img id= "id1" className='icono__icono-1' src="/images/cubo.svg" alt="" />
+                <img id="id2"  className='icono__icono-2' src="/images/maletin.svg" alt="" />
+                <img id="id3"  className='icono__icono-3' src="/images/etiqueta.svg" alt="" />
+                <img id="id4"  className='icono__icono-4' src="/images/cubo2.svg" alt="" />
+                <img id="id5"  className='icono__icono-5' src="/images/chip.svg" alt="" />
+                <img id="id6"  className='icono__icono-6' src="/images/corazon.svg" alt="" />
                 <img className='laberinto' src="/images/laberinto.webp" alt="" />
                 <div className="presentacion" >
-                    <div onClick={animarDiv} className="proceso__elemento-1">
-                        <div className="proceso__elemento-1__texto">
+                    <div ref={elementoRef} className={`proceso__elemento-1 ${isIntersecting ? 'animado' : '' }`}  >
+                        <div className={`proceso__elemento-1__texto ${isIntersecting ? 'visible' : '' }`}>
                             <h3 className='proceso__elemento-1__texto__titulo'>Presentación:</h3>
                             <p className='proceso__elemento-1__texto__item'>Equipo de trabajo</p>
                             <p className='proceso__elemento-1__texto__item'>Procesos</p>
@@ -112,8 +63,8 @@ function Asi_trabajamos() {
                     </div>
                 </div>
                 <div className="registro">
-                    <div onClick={animarDiv2} className="proceso__elemento-2">
-                        <div className="proceso__elemento-2__texto">
+                    <div ref={elementoRef2} className={`proceso__elemento-2 ${isIntersecting2 ? 'animado' : '' }`}>
+                        <div className={`proceso__elemento-2__texto ${isIntersecting2 ? 'visible' : '' }`}>
                             <h3 className='proceso__elemento-2__texto__titulo'>Registro de Reuniones:</h3>
                             <p className='proceso__elemento-2__texto__item'>Preguntas</p>
                             <p className='proceso__elemento-2__texto__item'>Compromisos del Cliente</p>
@@ -122,8 +73,8 @@ function Asi_trabajamos() {
                     </div>
                 </div>
                 <div className="compromisos">
-                    <div onClick={animarDiv3} className="proceso__elemento-3">
-                        <div className="proceso__elemento-3__texto">
+                    <div ref={elementoRef3} className={`proceso__elemento-3 ${isIntersecting3 ? 'animado' : '' }`}>
+                        <div className={`proceso__elemento-3__texto ${isIntersecting3 ? 'visible' : '' }`}>
                             <h3 className='proceso__elemento-3__texto__titulo'>Compromisos If Nox:</h3>
                             <p className='proceso__elemento-3__texto__item'>Timeline</p>
                             <p className='proceso__elemento-3__texto__item'>Mapa de Navegación</p>
@@ -131,8 +82,8 @@ function Asi_trabajamos() {
                     </div>
                 </div>
                 <div className="implementacion">
-                    <div onClick={animarDiv4} className="proceso__elemento-4">
-                        <div className="proceso__elemento-4__texto">
+                    <div ref={elementoRef4} className={`proceso__elemento-4 ${isIntersecting4 ? 'animado' : '' }`}>
+                        <div className={`proceso__elemento-4__texto ${isIntersecting4 ? 'visible' : '' }`}>
                             <h3 className='proceso__elemento-4__texto__titulo'>Implementación:</h3>
                             <div className="bloques">
                                 <div className="bloque-1">
@@ -148,8 +99,8 @@ function Asi_trabajamos() {
                     </div>
                 </div>
                 <div className="qa">
-                    <div onClick={animarDiv5} className="proceso__elemento-5">
-                        <div className="proceso__elemento-5__texto">
+                    <div ref={elementoRef5} className={`proceso__elemento-5 ${isIntersecting5 ? 'animado' : '' }`}>
+                        <div className={`proceso__elemento-5__texto ${isIntersecting5 ? 'visible' : '' }`}>
                             <h3 className='proceso__elemento-5__texto__titulo'>QA Cliente:</h3>
                             <p className='proceso__elemento-5__texto__item'>Documentación QA Cliente</p>
                             <p className='proceso__elemento-5__texto__item'>Estabilización</p>
@@ -157,8 +108,8 @@ function Asi_trabajamos() {
                     </div>
                 </div>
                 <div className="entrega">
-                    <div onClick={animarDiv6} className="proceso__elemento-6">
-                        <div className="proceso__elemento-6__texto">
+                    <div ref={elementoRef6} className={`proceso__elemento-6 ${isIntersecting6 ? 'animado' : '' }`}>
+                        <div className={`proceso__elemento-6__texto ${isIntersecting6 ? 'visible' : '' }`}>
                             <h3 className='proceso__elemento-6__texto__titulo'>Entrega Final:</h3>
                             <p className='proceso__elemento-6__texto__item'>Acta de Entrega y Conformidad</p>
                             <p className='proceso__elemento-6__texto__item'>Manual de Administración</p>
@@ -173,21 +124,21 @@ function Asi_trabajamos() {
                 <h1 className='titulo'>Así <br /> trabajamos</h1>
                 <img className='laberinto-2' src="/images/laberinto-mobile.svg" alt="" />
                 <div className="presentacion-2">
-                    <div onClick={animar1} className="elemento-1">
-                        <div className="elemento-1__texto">
+                <div ref={elementoRef_a} className={`elemento-1 ${isIntersecting_a ? 'animado' : '' }`}  >
+                        <div className={`elemento-1__texto ${isIntersecting_a ? 'visible' : '' }`}>
                             <h3 className='elemento-1__texto__titulo'>Presentación:</h3>
                             <p className='elemento-1__texto__item'>Equipo de trabajo</p>
                             <p className='elemento-1__texto__item'>Procesos</p>
                             <p className='elemento-1__texto__item'>Herramientas</p>
                         </div>
-                        <img onClick={animar1} className='icono-1' src="/images/cubo.svg" alt="" />
+                        <img className='icono-1' src="/images/cubo.svg" alt="" />
                     </div>
                 </div>
                 <div className="registro-2">
-                    <div onClick={animar2} className="elemento-2">
-                        <img onClick={animar2} className='icono-2' src="/images/maletin.svg" alt="" />
+                <div ref={elementoRef_2} className={`elemento-2 ${isIntersecting_2 ? 'animado' : '' }`}  >
+                        <img className='icono-2' src="/images/maletin.svg" alt="" />
 
-                        <div className="elemento-2__texto">
+                        <div className={`elemento-2__texto ${isIntersecting_2 ? 'visible' : '' }`}>
                             <h3 className='elemento-2__texto__titulo'>Registro de Reuniones:</h3>
                             <p className='elemento-2__texto__item'>Preguntas</p>
                             <p className='elemento-2__texto__item'>Compromisos del Cliente</p>
@@ -196,21 +147,20 @@ function Asi_trabajamos() {
                     </div>
                 </div>
                 <div className="compromisos-2">
-                    <div onClick={animar3} className="elemento-3">
-
-                        <div className="elemento-3__texto">
+                <div ref={elementoRef_3} className={`elemento-3 ${isIntersecting_3 ? 'animado' : '' }`}  >
+                        <div className={`elemento-3__texto ${isIntersecting_3 ? 'visible' : '' }`}>
                             <h3 className='elemento-3__texto__titulo'>Compromisos If Nox:</h3>
                             <p className='elemento-3__texto__item'>Timeline</p>
                             <p className='elemento-3__texto__item'>Mapa de Navegación</p>
                         </div>
-                        <img onClick={animar3} className='icono-3' src="/images/etiqueta.svg" alt="" />
+                        <img className='icono-3' src="/images/etiqueta.svg" alt="" />
                     </div>
                 </div>
                 <div className="implementacion-2">
-                    <div onClick={animar4} className="elemento-4">
-                        <img onClick={animar4} className='icono-4' src="/images/cubo2.svg" alt="" />
+                <div ref={elementoRef_4} className={`elemento-4 ${isIntersecting_4 ? 'animado' : '' }`}  >
+                        <img className='icono-4' src="/images/cubo2.svg" alt="" />
 
-                        <div className="elemento-4__texto">
+                        <div className={`elemento-4__texto ${isIntersecting_4 ? 'visible' : '' }`}>
                             <h3 className='elemento-4__texto__titulo'>Implementación:</h3>
                             <div className="bloques">
                                 <div className="bloque-1">
@@ -226,21 +176,20 @@ function Asi_trabajamos() {
                     </div>
                 </div>
                 <div className="qa-2">
-                    <div onClick={animar5} className="elemento-5">
-
-                        <div className="elemento-5__texto">
+                <div ref={elementoRef_5} className={`elemento-5 ${isIntersecting_5 ? 'animado' : '' }`}  >
+                        <div className={`elemento-5__texto ${isIntersecting_5 ? 'visible' : '' }`}>
                             <h3 className='elemento-5__texto__titulo'>QA Cliente:</h3>
                             <p className='elemento-5__texto__item'>Documentación QA Cliente</p>
                             <p className='elemento-5__texto__item'>Estabilización</p>
                         </div>
-                        <img onClick={animar5} className='icono-5' src="/images/chip.svg" alt="" />
+                        <img className='icono-5' src="/images/chip.svg" alt="" />
                     </div>
                 </div>
                 <div className="entrega-2">
-                    <div onClick={animar6} className="elemento-6">
-                        <img onClick={animar6} className='icono-6' src="/images/corazon.svg" alt="" />
+                <div ref={elementoRef_6} className={`elemento-6 ${isIntersecting_6 ? 'animado-2' : '' }`}  >
+                        <img className='icono-6' src="/images/corazon.svg" alt="" />
 
-                        <div className="elemento-6__texto">
+                        <div className={`elemento-6__texto ${isIntersecting_6 ? 'visible' : '' }`}>
                             <h3 className='elemento-6__texto__titulo'>Entrega Final:</h3>
                             <p className='elemento-6__texto__item'>Acta de Entrega y Conformidad</p>
                             <p className='elemento-6__texto__item'>Manual de Administración</p>
@@ -254,4 +203,4 @@ function Asi_trabajamos() {
     )
 }
 
-export default Asi_trabajamos
+export default Asi_trabajamos 
