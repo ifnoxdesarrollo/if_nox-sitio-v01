@@ -1,3 +1,14 @@
+.asi-trabajamos {
+    position: relative;
+}
+.marco-ref {
+    /* position: absolute; */
+    position: fixed;
+    width: 100%;
+    height: 20%;
+    border: 5px solid red;
+    z-index: 9999;
+}
 .asi-trabajamos__contenedor {
     width: 1300px;
     height: 1550px;
@@ -98,7 +109,7 @@
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
-    transition: all 0.5s ease;
+    transition: all 1s ease;
 }
 
 .proceso__elemento-2 {
@@ -183,6 +194,17 @@
 .animado-2 {
     width: 420px;
     height: 270px;
+    border-radius: 20px;
+    backdrop-filter: blur(5px) saturate(180%);
+    -webkit-backdrop-filter: blur(5px) saturate(180%);
+    background-color: rgba(255, 255, 255, 0.56);
+}
+
+/* agregue clase animado-3 que es la que se aplica a "etapa final", agrande el rectangulo*/
+
+.animado-3 {
+    width: 540px;
+    height: 274px;
     border-radius: 20px;
     backdrop-filter: blur(5px) saturate(180%);
     -webkit-backdrop-filter: blur(5px) saturate(180%);
@@ -287,7 +309,7 @@
     margin-right: 0rem;
     animation: deslizarAbajo 0.5s forwards;
     margin-right: 0rem;
-    margin-top: -9rem;
+    margin-top: -8rem; /* modifique: de -6 a -8 */
     line-height: 0.5;
     text-align: center;
 }

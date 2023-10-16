@@ -5,46 +5,47 @@ import './Asi_trabajamos.css'
 function Asi_trabajamos() {
 
     const [elementoRef, isIntersecting] = ComponenteObservador ({
-        rootMargin: "-40% 0px -60% 0px",
+        rootMargin: "-40% 0px -40% 0px",
     });
     const [elementoRef2, isIntersecting2] = ComponenteObservador ({
-        rootMargin: "-40% 0px -60% 0px",
+        rootMargin: "-40% 0px -40% 0px",
     });
     const [elementoRef3, isIntersecting3] = ComponenteObservador ({
-        rootMargin: "-40% 0px -60% 0px",
+        rootMargin: "-40% 0px -40% 0px",
     });
     const [elementoRef4, isIntersecting4] = ComponenteObservador ({
-        rootMargin: "-40% 0px -60% 0px",
+        rootMargin: "-40% 0px -40% 0px",
     });
     const [elementoRef5, isIntersecting5] = ComponenteObservador ({
-        rootMargin: "-40% 0px -60% 0px",
+        rootMargin: "-40% 0px -40% 0px",
     });
     const [elementoRef6, isIntersecting6] = ComponenteObservador ({
-        rootMargin: "-40% 0px -60% 0px",
+        rootMargin: "-40% 0px -40% 0px",
     });
     const [elementoRef_a, isIntersecting_a] = ComponenteObservador ({
-        rootMargin: "-40% 0px -60% 0px",
+        rootMargin: "-40% 0px -40% 0px",
     });
     const [elementoRef_2, isIntersecting_2] = ComponenteObservador ({
-        rootMargin: "-40% 0px -60% 0px",
+        rootMargin: "-40% 0px -40% 0px",
     });
     const [elementoRef_3, isIntersecting_3] = ComponenteObservador ({
-        rootMargin: "-40% 0px -60% 0px",
+        rootMargin: "-40% 0px -40% 0px",
     });
     const [elementoRef_4, isIntersecting_4] = ComponenteObservador ({
-        rootMargin: "-40% 0px -60% 0px",
+        rootMargin: "-40% 0px -40% 0px",
     });
     const [elementoRef_5, isIntersecting_5] = ComponenteObservador ({
-        rootMargin: "-40% 0px -60% 0px",
+        rootMargin: "-40% 0px -40% 0px",
     });
     const [elementoRef_6, isIntersecting_6] = ComponenteObservador ({
-        rootMargin: "-40% 0px -60% 0px",
+        rootMargin: "-40% 0px -40% 0px",
     });
     
     return (
         <div className='asi-trabajamos'>
+            <div className='marco-ref'></div>
             <div className="asi-trabajamos__contenedor">
-                <h1 className='asi-trabajamos__titulo'>Así trabajamos</h1>
+                <h1 className='asi-trabajamos__titulo'>Así trabajamos:</h1>
                 <img id= "id1" className='icono__icono-1' src="/images/cubo.svg" alt="" />
                 <img id="id2"  className='icono__icono-2' src="/images/maletin.svg" alt="" />
                 <img id="id3"  className='icono__icono-3' src="/images/etiqueta.svg" alt="" />
@@ -65,9 +66,9 @@ function Asi_trabajamos() {
                 <div className="registro">
                     <div ref={elementoRef2} className={`proceso__elemento-2 ${isIntersecting2 ? 'animado' : '' }`}>
                         <div className={`proceso__elemento-2__texto ${isIntersecting2 ? 'visible' : '' }`}>
-                            <h3 className='proceso__elemento-2__texto__titulo'>Registro de Reuniones:</h3>
+                            <h3 className='proceso__elemento-2__texto__titulo'>Registro de reuniones:</h3>
                             <p className='proceso__elemento-2__texto__item'>Preguntas</p>
-                            <p className='proceso__elemento-2__texto__item'>Compromisos del Cliente</p>
+                            <p className='proceso__elemento-2__texto__item'>Compromisos del cliente</p>
                             <p className='proceso__elemento-2__texto__item'>Brief</p>
                         </div>
                     </div>
@@ -77,7 +78,7 @@ function Asi_trabajamos() {
                         <div className={`proceso__elemento-3__texto ${isIntersecting3 ? 'visible' : '' }`}>
                             <h3 className='proceso__elemento-3__texto__titulo'>Compromisos If Nox:</h3>
                             <p className='proceso__elemento-3__texto__item'>Timeline</p>
-                            <p className='proceso__elemento-3__texto__item'>Mapa de Navegación</p>
+                            <p className='proceso__elemento-3__texto__item'>Mapa de navegación</p>
                         </div>
                     </div>
                 </div>
@@ -108,12 +109,12 @@ function Asi_trabajamos() {
                     </div>
                 </div>
                 <div className="entrega">
-                    <div ref={elementoRef6} className={`proceso__elemento-6 ${isIntersecting6 ? 'animado' : '' }`}>
+                    <div ref={elementoRef6} className={`proceso__elemento-6 ${isIntersecting6 ? 'animado-3' : '' }`}>
                         <div className={`proceso__elemento-6__texto ${isIntersecting6 ? 'visible' : '' }`}>
-                            <h3 className='proceso__elemento-6__texto__titulo'>Entrega Final:</h3>
-                            <p className='proceso__elemento-6__texto__item'>Acta de Entrega y Conformidad</p>
-                            <p className='proceso__elemento-6__texto__item'>Manual de Administración</p>
-                            <p className='proceso__elemento-6__texto__item'>Encuesta de Satisfacción</p>
+                            <h3 className='proceso__elemento-6__texto__titulo'>Entrega final:</h3>
+                            <p className='proceso__elemento-6__texto__item'>Acta de entrega y conformidad</p>
+                            <p className='proceso__elemento-6__texto__item'>Manual de administración</p>
+                            <p className='proceso__elemento-6__texto__item'>Encuesta de satisfacción</p>
                         </div>
                     </div>
                 </div>
