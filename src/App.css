@@ -21,9 +21,6 @@ a {
     text-decoration: none;
 }
 
-:root {}
-
-
 @media (max-width: 375px) {
     .App {
         display: flex;
@@ -32,7 +29,7 @@ a {
         flex-direction: column;
         background-color: grey;
         background-image: url('../public/images/Fondo-mobile.webp');
-        width: 375px;
+        /* width: 375px; */
         margin-top: -38px;
     }
 }

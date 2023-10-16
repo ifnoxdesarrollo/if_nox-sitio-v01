@@ -23,27 +23,26 @@ function Asi_trabajamos() {
         rootMargin: "-40% 0px -40% 0px",
     });
     const [elementoRef_a, isIntersecting_a] = ComponenteObservador ({
-        rootMargin: "-40% 0px -40% 0px",
+        rootMargin: "-20% 0px -60% 0px",
     });
     const [elementoRef_2, isIntersecting_2] = ComponenteObservador ({
-        rootMargin: "-40% 0px -40% 0px",
+        rootMargin: "-20% 0px -60% 0px",
     });
     const [elementoRef_3, isIntersecting_3] = ComponenteObservador ({
-        rootMargin: "-40% 0px -40% 0px",
+        rootMargin: "-20% 0px -60% 0px",
     });
     const [elementoRef_4, isIntersecting_4] = ComponenteObservador ({
-        rootMargin: "-40% 0px -40% 0px",
+        rootMargin: "-20% 0px -60% 0px",
     });
     const [elementoRef_5, isIntersecting_5] = ComponenteObservador ({
-        rootMargin: "-40% 0px -40% 0px",
+        rootMargin: "-20% 0px -60% 0px",
     });
     const [elementoRef_6, isIntersecting_6] = ComponenteObservador ({
-        rootMargin: "-40% 0px -40% 0px",
+        rootMargin: "-20% 0px -60% 0px",
     });
     
     return (
         <div className='asi-trabajamos'>
-            <div className='marco-ref'></div>
             <div className="asi-trabajamos__contenedor">
                 <h1 className='asi-trabajamos__titulo'>Así trabajamos:</h1>
                 <img id= "id1" className='icono__icono-1' src="/images/cubo.svg" alt="" />
@@ -122,10 +121,10 @@ function Asi_trabajamos() {
             </div>
 
             <div className="asi-trabajamos__contenedor-2">
-                <h1 className='titulo'>Así <br /> trabajamos</h1>
+                <h1 className='titulo'>Así <br /> trabajamos:</h1>
                 <img className='laberinto-2' src="/images/laberinto-mobile.svg" alt="" />
                 <div className="presentacion-2">
-                <div ref={elementoRef_a} className={`elemento-1 ${isIntersecting_a ? 'animado' : '' }`}  >
+                <div ref={elementoRef_a} className={`elemento-1 ${isIntersecting_a ? 'animado_2' : '' }`}  >
                         <div className={`elemento-1__texto ${isIntersecting_a ? 'visible' : '' }`}>
                             <h3 className='elemento-1__texto__titulo'>Presentación:</h3>
                             <p className='elemento-1__texto__item'>Equipo de trabajo</p>
@@ -136,7 +135,7 @@ function Asi_trabajamos() {
                     </div>
                 </div>
                 <div className="registro-2">
-                <div ref={elementoRef_2} className={`elemento-2 ${isIntersecting_2 ? 'animado' : '' }`}  >
+                <div ref={elementoRef_2} className={`elemento-2 ${isIntersecting_2 ? 'animado_2' : '' }`}  >
                         <img className='icono-2' src="/images/maletin.svg" alt="" />
 
                         <div className={`elemento-2__texto ${isIntersecting_2 ? 'visible' : '' }`}>
@@ -148,17 +147,17 @@ function Asi_trabajamos() {
                     </div>
                 </div>
                 <div className="compromisos-2">
-                <div ref={elementoRef_3} className={`elemento-3 ${isIntersecting_3 ? 'animado' : '' }`}  >
+                <div ref={elementoRef_3} className={`elemento-3 ${isIntersecting_3 ? 'animado_2' : '' }`}  >
                         <div className={`elemento-3__texto ${isIntersecting_3 ? 'visible' : '' }`}>
                             <h3 className='elemento-3__texto__titulo'>Compromisos If Nox:</h3>
                             <p className='elemento-3__texto__item'>Timeline</p>
-                            <p className='elemento-3__texto__item'>Mapa de Navegación</p>
+                            <p className='elemento-3__texto__item'>Mapa de navegación</p>
                         </div>
                         <img className='icono-3' src="/images/etiqueta.svg" alt="" />
                     </div>
                 </div>
                 <div className="implementacion-2">
-                <div ref={elementoRef_4} className={`elemento-4 ${isIntersecting_4 ? 'animado' : '' }`}  >
+                <div ref={elementoRef_4} className={`elemento-4 ${isIntersecting_4 ? 'animado_2' : '' }`}  >
                         <img className='icono-4' src="/images/cubo2.svg" alt="" />
 
                         <div className={`elemento-4__texto ${isIntersecting_4 ? 'visible' : '' }`}>
@@ -177,7 +176,7 @@ function Asi_trabajamos() {
                     </div>
                 </div>
                 <div className="qa-2">
-                <div ref={elementoRef_5} className={`elemento-5 ${isIntersecting_5 ? 'animado' : '' }`}  >
+                <div ref={elementoRef_5} className={`elemento-5 ${isIntersecting_5 ? 'animado_2' : '' }`}  >
                         <div className={`elemento-5__texto ${isIntersecting_5 ? 'visible' : '' }`}>
                             <h3 className='elemento-5__texto__titulo'>QA Cliente:</h3>
                             <p className='elemento-5__texto__item'>Documentación QA Cliente</p>
@@ -187,7 +186,7 @@ function Asi_trabajamos() {
                     </div>
                 </div>
                 <div className="entrega-2">
-                <div ref={elementoRef_6} className={`elemento-6 ${isIntersecting_6 ? 'animado-2' : '' }`}  >
+                <div ref={elementoRef_6} className={`elemento-6 ${isIntersecting_6 ? 'animado-2_2' : '' }`}  >
                         <img className='icono-6' src="/images/corazon.svg" alt="" />
 
                         <div className={`elemento-6__texto ${isIntersecting_6 ? 'visible' : '' }`}>
